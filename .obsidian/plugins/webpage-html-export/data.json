@@ -12,7 +12,9 @@
     "inlineHTML": false,
     "exportPath": "/home/equinton/web/userdocs/docs",
     "filesToExport": [
-      "all"
+      "images",
+      "objets",
+      "index.md"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
@@ -20,7 +22,7 @@
     "addHeadTag": true,
     "backlinkOptions": {
       "featureId": "backlinks",
-      "enabled": true,
+      "enabled": false,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
@@ -184,7 +186,7 @@
     },
     "rssOptions": {
       "featureId": "rss",
-      "enabled": true,
+      "enabled": false,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
@@ -217,7 +219,11 @@
     "iconEmojiStyle": "Native",
     "exportRoot": "",
     "includePluginCss": [],
-    "includeStyleCssIds": [],
+    "includeStyleCssIds": [
+      "svelte-11adhly",
+      "excalidraw-embedded-light",
+      "excalidraw-embedded-dark"
+    ],
     "autoDisposeWebpages": true
   },
   "logLevel": "warning",

@@ -11,14 +11,14 @@
             "id": "bdef49f7fc8ea897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "aFile": "docs/site-lib/styles/theme.css",
+                "bFile": "docs/site-lib/styles/theme.css",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "diff",
+              "title": "Diff: theme.css"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "15451fd69feb0689",
@@ -184,8 +185,10 @@
   },
   "active": "bdef49f7fc8ea897",
   "lastOpenFiles": [
-    "objets/Les objets dans Collec-Science.md",
     "index.md",
+    "docs/site-lib/styles/supported-plugins.css",
+    "docs/site-lib/styles/theme.css",
+    "objets/Les objets dans Collec-Science.md",
     "docs/docs/docs/docs/site-lib/styles/obsidian.css",
     "docs/docs/docs/docs/site-lib/styles/main-styles.css",
     "docs/docs/docs/docs/site-lib/styles/global-variable-styles.css",
@@ -194,8 +197,6 @@
     "docs/docs/docs/docs/site-lib/scripts/graph-wasm.wasm",
     "docs/docs/docs/docs/site-lib/scripts/graph-wasm.js",
     "docs/docs/docs/docs/site-lib/scripts/graph-render-worker.js",
-    "docs/docs/docs/docs/site-lib/scripts",
-    "docs/docs/docs/docs/site-lib/fonts/cbe0ae49c52c920fd563.woff2",
     "docs/docs/docs/images/subsample.png",
     "docs/docs/docs/images/sample.png",
     "docs/docs/docs/images/box.png",
