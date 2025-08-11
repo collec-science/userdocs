@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tout savoir sur Collec-Science.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tout savoir sur Collec-Science"
+              "title": "index"
             }
           }
         ]
@@ -184,28 +184,27 @@
   },
   "active": "bdef49f7fc8ea897",
   "lastOpenFiles": [
-    "docs/docs/site-lib/styles/obsidian.css",
-    "docs/docs/site-lib/styles/main-styles.css",
-    "docs/docs/site-lib/styles/global-variable-styles.css",
-    "docs/docs/site-lib/styles",
-    "docs/docs/site-lib/scripts/webpage.js",
-    "docs/docs/site-lib/scripts/graph-wasm.wasm",
-    "docs/docs/site-lib/scripts/graph-wasm.js",
-    "docs/docs/site-lib/scripts/graph-render-worker.js",
-    "docs/docs/site-lib/scripts",
-    "docs/docs/site-lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "docs/docs/site-lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "docs/images/subsample.png",
-    "docs/images/sample.png",
-    "docs/images/box.png",
-    "docs/docs/site-lib/media/favicon.png",
-    "docs/docs/site-lib/media/6155340132a851f6089e.svg",
-    "docs/docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "Tout savoir sur Collec-Science.md",
-    "images/box.png",
-    "images/subsample.png",
-    "images/sample.png",
-    "images/favicon.png",
-    "objets/Les objets dans Collec-Science.md"
+    "objets/Les objets dans Collec-Science.md",
+    "index.md",
+    "docs/docs/docs/docs/site-lib/styles/obsidian.css",
+    "docs/docs/docs/docs/site-lib/styles/main-styles.css",
+    "docs/docs/docs/docs/site-lib/styles/global-variable-styles.css",
+    "docs/docs/docs/docs/site-lib/styles",
+    "docs/docs/docs/docs/site-lib/scripts/webpage.js",
+    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.wasm",
+    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.js",
+    "docs/docs/docs/docs/site-lib/scripts/graph-render-worker.js",
+    "docs/docs/docs/docs/site-lib/scripts",
+    "docs/docs/docs/docs/site-lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "docs/docs/docs/images/subsample.png",
+    "docs/docs/docs/images/sample.png",
+    "docs/docs/docs/images/box.png",
+    "docs/docs/docs/docs/site-lib/media/favicon.png",
+    "docs/docs/docs/docs/site-lib/media/6155340132a851f6089e.svg",
+    "docs/docs/docs/docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "docs/docs/images/subsample.png",
+    "docs/docs/images/sample.png",
+    "docs/docs/images/box.png",
+    "docs/docs/docs/site-lib/media/favicon.png"
   ]
 }
