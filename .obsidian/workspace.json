@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fda64909fd6c1a2",
+        "id": "a0e02e92954e1679",
         "type": "tabs",
         "children": [
           {
-            "id": "bdef49f7fc8ea897",
+            "id": "2b0098ab88e269b9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "docs/site-lib/styles/theme.css",
-                "bFile": "docs/site-lib/styles/theme.css",
-                "aRef": ""
+                "file": "objets/Les objets dans Collec-Science.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: theme.css"
+              "icon": "lucide-file",
+              "title": "Les objets dans Collec-Science"
             }
           }
         ]
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,20 +183,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bdef49f7fc8ea897",
+  "active": "2b0098ab88e269b9",
   "lastOpenFiles": [
+    "docs/images/objets.png",
+    "docs/images/objets.html",
+    "objets/Les objets dans Collec-Science.md",
+    "Excalidraw/objets.md",
+    "images/objets.png",
+    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
+    "docs/excalidraw/objets.html",
+    "Excalidraw/Drawing 2025-08-11 18.29.27.excalidraw.md",
+    "docs/excalidraw/drawing-2025-08-11-18.29.27.excalidraw.html",
+    "docs/excalidraw",
+    "docs/objets/drawing-2025-08-11-18.33.18.excalidraw.html",
+    "Excalidraw",
     "index.md",
     "docs/site-lib/styles/supported-plugins.css",
     "docs/site-lib/styles/theme.css",
-    "objets/Les objets dans Collec-Science.md",
     "docs/docs/docs/docs/site-lib/styles/obsidian.css",
     "docs/docs/docs/docs/site-lib/styles/main-styles.css",
-    "docs/docs/docs/docs/site-lib/styles/global-variable-styles.css",
-    "docs/docs/docs/docs/site-lib/styles",
-    "docs/docs/docs/docs/site-lib/scripts/webpage.js",
-    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.wasm",
-    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.js",
-    "docs/docs/docs/docs/site-lib/scripts/graph-render-worker.js",
     "docs/docs/docs/images/subsample.png",
     "docs/docs/docs/images/sample.png",
     "docs/docs/docs/images/box.png",
@@ -205,7 +210,6 @@
     "docs/docs/docs/docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "docs/docs/images/subsample.png",
     "docs/docs/images/sample.png",
-    "docs/docs/images/box.png",
-    "docs/docs/docs/site-lib/media/favicon.png"
+    "docs/docs/images/box.png"
   ]
 }
