@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "/home/equinton/web/userdocs/html",
+    "exportPath": "/home/equinton/web/userdocs/docs",
     "filesToExport": [
       "all"
     ],
@@ -70,7 +70,7 @@
     },
     "fileNavigationOptions": {
       "featureId": "file-navigation",
-      "enabled": true,
+      "enabled": false,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
@@ -212,7 +212,7 @@
     "slugifyPaths": true,
     "flattenExportPaths": false,
     "fixLinks": true,
-    "faviconPath": "",
+    "faviconPath": "images/favicon.png",
     "siteName": "userdocs",
     "iconEmojiStyle": "Native",
     "exportRoot": "",
