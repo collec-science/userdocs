@@ -11,24 +11,10 @@
             "id": "9799356d99c50aec",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/échantillons dérivés.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "échantillons dérivés"
-            }
-          },
-          {
-            "id": "a54540be0393a014",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/échantillon.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "échantillon"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           },
           {
@@ -46,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "15451fd69feb0689",
@@ -209,35 +196,35 @@
   },
   "active": "92580f9e77445630",
   "lastOpenFiles": [
-    "index.md",
     "objets/Les objets dans Collec-Science.md",
-    "objets/Les échantillons.md",
-    "_templates/Modèle par défaut.md",
-    "docs/images/échantillons-dérivés.png",
-    "docs/images/échantillon.png",
-    "docs/_templates/modèle-par-défaut.html",
-    "docs/_templates",
     "objets/Les métadonnées.md",
-    "docs/images/échantillon.html",
-    "docs/objets/les-métadonnées.html",
-    "docs/images/échantillons-dérivés.html",
-    "docs/objets/les-échantillons.html",
-    "Excalidraw/échantillon.md",
-    "Excalidraw/échantillons dérivés.md",
-    "images/échantillons dérivés.png",
-    "images/échantillon (1).png",
+    "objets/Les échantillons.md",
     "objets/Les contenants et le stockage.md",
+    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
+    "index.md",
+    "images/échantillons dérivés.png",
     "images/échantillon.png",
-    "_templates",
-    "docs/objets/les-contenants-et-le-stockage.html",
-    "Excalidraw/objets.md",
-    "images/sample.png",
     "images/objets.png",
-    "images/subsample.png",
+    "docs/objets/les-échantillons.html",
+    "docs/objets/les-métadonnées.html",
+    "docs/objets/les-contenants-et-le-stockage.html",
+    "docs/objets/drawing-2025-08-11-18.33.18.excalidraw.html",
+    "docs/images/échantillons-dérivés.png",
+    "docs/images/échantillons-dérivés.html",
+    "docs/images/échantillon.png",
+    "docs/images/échantillon.html",
     "docs/images/objets.png",
     "docs/images/objets.html",
-    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
-    "docs/excalidraw/objets.html",
+    "_templates/Modèle par défaut.md",
+    "_templates",
+    "Excalidraw/échantillons dérivés.md",
+    "Excalidraw/échantillon.md",
+    "Excalidraw/objets.md",
+    "Excalidraw",
+    "docs/site-lib/styles/supported-plugins.css",
+    "images/échantillon (1).png",
+    "images/sample.png",
+    "images/subsample.png",
     "docs/docs/docs/images/subsample.png"
   ]
 }
