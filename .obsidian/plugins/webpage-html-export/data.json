@@ -200,7 +200,7 @@
       "alwaysEnabled": false,
       "hideSettingsButton": true
     },
-    "relativeHeaderLinks": true,
+    "relativeHeaderLinks": false,
     "includeJS": true,
     "includeCSS": true,
     "inlineMedia": false,
@@ -215,7 +215,7 @@
     "flattenExportPaths": false,
     "fixLinks": true,
     "faviconPath": "images/favicon.png",
-    "siteName": "userdocs",
+    "siteName": "https://collec-science.github.io/userdocs",
     "iconEmojiStyle": "Native",
     "exportRoot": "",
     "includePluginCss": [

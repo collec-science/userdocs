@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "15451fd69feb0689",
@@ -195,10 +196,12 @@
   },
   "active": "92580f9e77445630",
   "lastOpenFiles": [
-    "objets/Les échantillons.md",
+    "objets/Les objets dans Collec-Science.md",
     "objets/Les métadonnées.md",
+    "objets/Les échantillons.md",
     "objets/Les contenants et le stockage.md",
     "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
+    "index.md",
     "images/échantillons dérivés.png",
     "images/échantillon.png",
     "images/objets.png",
@@ -219,8 +222,6 @@
     "Excalidraw/objets.md",
     "Excalidraw",
     "docs/site-lib/styles/supported-plugins.css",
-    "index.md",
-    "objets/Les objets dans Collec-Science.md",
     "images/échantillon (1).png",
     "images/sample.png",
     "images/subsample.png",
