@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1fda64909fd6c1a2",
+        "id": "e662cab1c64c4c2a",
         "type": "tabs",
         "children": [
           {
-            "id": "bdef49f7fc8ea897",
+            "id": "9799356d99c50aec",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "92580f9e77445630",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "aFile": "docs/site-lib/styles/theme.css",
-                "bFile": "docs/site-lib/styles/theme.css",
-                "aRef": ""
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: theme.css"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "15451fd69feb0689",
@@ -114,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "objets/Les objets dans Collec-Science.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Les objets dans Collec-Science"
+              "title": "Liens sortants de index"
             }
           },
           {
@@ -143,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "objets/Les objets dans Collec-Science.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Les objets dans Collec-Science"
+              "title": "Plan de index"
             }
           },
           {
@@ -163,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,29 +193,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bdef49f7fc8ea897",
+  "active": "92580f9e77445630",
   "lastOpenFiles": [
-    "index.md",
     "docs/site-lib/styles/supported-plugins.css",
-    "docs/site-lib/styles/theme.css",
+    "index.md",
     "objets/Les objets dans Collec-Science.md",
-    "docs/docs/docs/docs/site-lib/styles/obsidian.css",
-    "docs/docs/docs/docs/site-lib/styles/main-styles.css",
-    "docs/docs/docs/docs/site-lib/styles/global-variable-styles.css",
-    "docs/docs/docs/docs/site-lib/styles",
-    "docs/docs/docs/docs/site-lib/scripts/webpage.js",
-    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.wasm",
-    "docs/docs/docs/docs/site-lib/scripts/graph-wasm.js",
-    "docs/docs/docs/docs/site-lib/scripts/graph-render-worker.js",
-    "docs/docs/docs/images/subsample.png",
-    "docs/docs/docs/images/sample.png",
-    "docs/docs/docs/images/box.png",
-    "docs/docs/docs/docs/site-lib/media/favicon.png",
-    "docs/docs/docs/docs/site-lib/media/6155340132a851f6089e.svg",
-    "docs/docs/docs/docs/site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "docs/docs/images/subsample.png",
-    "docs/docs/images/sample.png",
-    "docs/docs/images/box.png",
-    "docs/docs/docs/site-lib/media/favicon.png"
+    "objets/Les échantillons.md",
+    "_templates/Modèle par défaut.md",
+    "docs/images/échantillons-dérivés.png",
+    "docs/images/échantillon.png",
+    "docs/_templates/modèle-par-défaut.html",
+    "docs/_templates",
+    "objets/Les métadonnées.md",
+    "docs/images/échantillon.html",
+    "docs/objets/les-métadonnées.html",
+    "docs/images/échantillons-dérivés.html",
+    "docs/objets/les-échantillons.html",
+    "Excalidraw/échantillon.md",
+    "Excalidraw/échantillons dérivés.md",
+    "images/échantillons dérivés.png",
+    "images/échantillon (1).png",
+    "objets/Les contenants et le stockage.md",
+    "images/échantillon.png",
+    "_templates",
+    "docs/objets/les-contenants-et-le-stockage.html",
+    "Excalidraw/objets.md",
+    "images/sample.png",
+    "images/objets.png",
+    "images/subsample.png",
+    "docs/images/objets.png",
+    "docs/images/objets.html",
+    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
+    "docs/excalidraw/objets.html",
+    "docs/docs/docs/images/subsample.png"
   ]
 }
