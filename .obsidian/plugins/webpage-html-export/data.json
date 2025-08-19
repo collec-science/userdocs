@@ -22,15 +22,15 @@
     "addHeadTag": true,
     "backlinkOptions": {
       "featureId": "backlinks",
-      "enabled": false,
+      "enabled": true,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
       "featurePlacement": {
         "selector": ".footer",
-        "type": "start"
+        "type": "before"
       },
-      "displayTitle": "Backlinks"
+      "displayTitle": ""
     },
     "tagOptions": {
       "featureId": "tags",
@@ -209,7 +209,7 @@
     "inlineFonts": false,
     "inlineOther": false,
     "combineAsSingleFile": false,
-    "offlineResources": false,
+    "offlineResources": true,
     "themeName": "",
     "slugifyPaths": true,
     "flattenExportPaths": false,
@@ -218,12 +218,12 @@
     "siteName": "userdocs",
     "iconEmojiStyle": "Native",
     "exportRoot": "",
-    "includePluginCss": [],
-    "includeStyleCssIds": [
+    "includePluginCss": [
       "svelte-11adhly",
       "excalidraw-embedded-light",
       "excalidraw-embedded-dark"
     ],
+    "includeStyleCssIds": [],
     "autoDisposeWebpages": true
   },
   "logLevel": "warning",
