@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "c58fff01987211f8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/campagne.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "campagne"
+            }
+          },
+          {
             "id": "92580f9e77445630",
             "type": "leaf",
             "state": {
@@ -210,6 +222,19 @@
   },
   "active": "9799356d99c50aec",
   "lastOpenFiles": [
+    "objets/Les campagnes.md",
+    "docs/attachments/pasted-image-20250820192234.png",
+    "docs/attachments",
+    "docs/images/campagne.png",
+    "docs/images/campagne.html",
+    "docs/objets/les-campagnes.html",
+    "objets/Les échantillons.md",
+    "index.md",
+    "attachments/Pasted image 20250820192234.png",
+    "attachments",
+    "Excalidraw/campagne.md",
+    "images/campagne.png",
+    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
     "objets/Les métadonnées.md",
     "docs/images/metadonnees-saisie.png",
     "docs/images/metadonnees-liste.png",
@@ -219,24 +244,13 @@
     "docs/images/metadonnees-saisie.html",
     "docs/images/metadonnees-liste.html",
     "docs/images/metadonnees-heritees.html",
-    "objets/Les échantillons.md",
     "Excalidraw/metadonnees.md",
     "images/metadonnees-heritees.png",
     "images/metadonnees-liste.png",
-    "images/metadonnees-saisie.png",
-    "images/metadonnees-detail.png",
-    "index.md",
     "objets/Les objets dans Collec-Science.md",
     "objets/Les contenants et le stockage.md",
-    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
-    "images/échantillons dérivés.png",
-    "images/échantillon.png",
     "docs/objets/les-échantillons.html",
     "docs/objets/les-métadonnées.html",
-    "docs/objets/les-contenants-et-le-stockage.html",
-    "docs/objets/drawing-2025-08-11-18.33.18.excalidraw.html",
-    "docs/images/échantillons-dérivés.html",
-    "docs/images/échantillon.html",
     "_templates/Modèle par défaut.md",
     "Excalidraw/échantillons dérivés.md",
     "Excalidraw/échantillon.md",

@@ -8,7 +8,7 @@ created: 19/08/2025
 ---
 ![[échantillon.png]]
 Les échantillons sont des #objets ([[Les objets dans Collec-Science]]), et héritent donc de l'ensemble de leurs propriétés.
-Un échantillon est rattaché à une #collection (et à une seule). Il peut avoir été prélevé pendant une #campagne, provenir d'un pays (soit le pays où il a été échantillonné, soit le pays qui l'a fourni dans le cadre des accords de Nagoya). La station de prélèvement a pu être déclarée dans le logiciel, pour faciliter les recherches.
+Un échantillon est rattaché à une #collection (et à une seule). Il peut avoir été prélevé pendant une #campagne ([[Les campagnes]]), provenir d'un pays (soit le pays où il a été échantillonné, soit le pays qui l'a fourni dans le cadre des accords de Nagoya). La station de prélèvement a pu être déclarée dans le logiciel, pour faciliter les recherches.
 Les échantillons sont caractérisés par :
 - un type
 - une date d'échantillonnage, une date d'expiration, une date de création dans Collec-Science
