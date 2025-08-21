@@ -1,12 +1,19 @@
-# API d'ajout d'un document à un objet
-
+---
+title: Ajouter un document à un objet
+authors: Éric Quinton
+license: CC-BY
+tags:
+  - api
+  - document
+created: 19/08/2025
+---
 ## Principe
 
-Cette API permet, depuis une application tierce, d'ajouter une pièce jointe à un objet (échantillon, contenant). L'API autorise soit le téléchargement d'un nouveau fichier, soit le référencement d'un fichier si la collection autorise le stockage externe des documents (cf. [Associer des documents externes à un échantillon](document_external_fr)).
+Cette API permet, depuis une application tierce, d'ajouter une pièce jointe à un objet (échantillon, contenant). L'API autorise soit le téléchargement d'un nouveau fichier, soit le référencement d'un fichier si la collection autorise le stockage externe des documents.
 
 ## Identification
 
-Consultez ce document pour créer l'utilisateur de l'API, générer un token et lui donner les droits adéquats : [Identification pour les services web](swidentification_fr)
+Consultez ce document pour créer l'utilisateur de l'API, générer un token et lui donner les droits adéquats : [[Identification pour les API]]
 
 ## Méthode d'appel
 
@@ -24,8 +31,6 @@ L'API doit être appelée en mode http **POST**.
 | document_name | nom du document. Si non renseigné, il sera déduit du nom du document transmis |
 | document_creation_date | Date de création du document, au format dd/mm/YYYY |
 | external_storage_path | Chemin d'accès au fichier, si celui-ci est stocké en dehors de la base de données |
-
-{.table .table-bordered .table-hover}
 
 Si vous renseignez la variable *external_storage_path*, le fichier cible doit exister dans l'arborescence externe et être accessible au serveur web.
 

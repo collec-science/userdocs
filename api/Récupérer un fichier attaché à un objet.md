@@ -1,5 +1,12 @@
-# Service web de récupération d'un fichier attaché à un objet
-
+---
+title: Récupérer un fichier attaché à un objet
+authors: Éric Quinton
+license: CC-BY
+tags:
+  - api
+  - document
+created: 19/08/2025
+---
 ## Méthode d'appel
 
 ~~~
@@ -9,7 +16,6 @@
 
 Paramètres :
 
-
 | Paramètre | Contenu                                                                                                              |
 | --------- | -------------------------------------------------------------------------------------------------------------------- |
 | uuid      | UUID du document concerné (obligatoire)                                                                              |
@@ -18,14 +24,11 @@ Paramètres :
 | mode      | inline/attached : définit le mode d'envoi du document. Par défaut,*inline*                                           |
 | locale    | Code de la langue utilisée pour les messages d'erreur ou le formatage des dates. Par défaut : fr, sinon 'en' ou 'us' |
 
-{.table .table-bordered .table-hover}
 
 ## Données retournées
 
 Le document au format binaire, avec le type MIME correspondant.
-
 ## Codes d'erreur
-
 
 | Code d'erreur | Signification         |
 | ------------- | --------------------- |
@@ -34,4 +37,3 @@ Le document au format binaire, avec le type MIME correspondant.
 | 520           | Unknown error         |
 | 404           | Not Found             |
 
-{.table .table-bordered .table-hover}
