@@ -12,6 +12,7 @@
     "inlineHTML": false,
     "exportPath": "/home/equinton/web/userdocs/docs",
     "filesToExport": [
+      "api",
       "images",
       "objets",
       "index.md"
