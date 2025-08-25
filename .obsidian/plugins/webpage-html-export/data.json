@@ -12,9 +12,15 @@
     "inlineHTML": false,
     "exportPath": "/home/equinton/web/userdocs/docs",
     "filesToExport": [
+      "administration",
       "api",
+      "attachments",
+      "gestion",
+      "identification",
       "images",
       "objets",
+      "parametres",
+      "droits",
       "index.md"
     ],
     "useFallbackRenderer": false,

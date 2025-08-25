@@ -8,68 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9799356d99c50aec",
+            "id": "a6094ab6cfe07ac7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "api/Récupérer la liste des fichiers attachés à un objet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Récupérer la liste des fichiers attachés à un objet"
-            }
-          },
-          {
-            "id": "edc858adbaf3a477",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "api/Identification pour les API.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Identification pour les API"
-            }
-          },
-          {
-            "id": "4ed56cdf96ff0fc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "api/Créer - modifier un échantillon.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Créer - modifier un échantillon"
-            }
-          },
-          {
-            "id": "fb5a9be9fd0701b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "administration/Automatiser l'envoi de mails.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Automatiser l'envoi de mails"
-            }
-          },
-          {
-            "id": "d5a9502b2e7be342",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rights/Les différents types de droits.md",
+                "file": "droits/Les différents types de droits.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,45 +22,33 @@
             }
           },
           {
-            "id": "c58fff01987211f8",
+            "id": "7b8d06b40d3a06b5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/campagne.md"
+                "file": "Excalidraw/droits par campagne.md"
               },
               "icon": "excalidraw-icon",
-              "title": "campagne"
+              "title": "droits par campagne"
             }
           },
           {
-            "id": "92580f9e77445630",
+            "id": "7f05fef4e8ddf486",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "objets/Les métadonnées.md",
+                "file": "droits/La gestion des droits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Les métadonnées"
-            }
-          },
-          {
-            "id": "84e276bf4337e353",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/metadonnees.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "metadonnees"
+              "title": "La gestion des droits"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rights/Les différents types de droits.md",
+                "file": "droits/La gestion des droits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de Les différents types de droits"
+              "title": "Liens sortants de La gestion des droits"
             }
           },
           {
@@ -237,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rights/Les différents types de droits.md",
+                "file": "droits/La gestion des droits.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de Les différents types de droits"
+              "title": "Plan de La gestion des droits"
             }
           },
           {
@@ -279,51 +211,50 @@
   },
   "active": "7e12df1b91b915aa",
   "lastOpenFiles": [
-    "swidentification_fr.md",
-    "api/Les API.md",
-    "index.md",
-    "gestion/Prêter un ou plusieurs échantillons.md",
-    "administration/Associer des documents externes à un échantillon.md",
-    "attachments/Pasted image 20250821191135.png",
-    "rights/Les différents types de droits.md",
-    "rights",
-    "administration/Automatiser l'envoi de mails.md",
-    "attachments/Pasted image 20250821190335.png",
-    "api/Récupérer un fichier attaché à un objet.md",
-    "administration",
-    "parametres",
-    "api/Ajouter un document à un objet.md",
-    "api/Créer un mouvement.md",
-    "api/Supprimer un échantillon.md",
-    "api/Récupérer une liste d'échantillons.md",
-    "api/Récupérer la liste des fichiers attachés à un objet.md",
-    "api/Identification pour les API.md",
-    "api/Créer - modifier un échantillon.md",
-    "api/Lire un échantillon.md",
-    "index.php?module=documentationGetFile&filename=technical/installation_fr/collec_installation_configuration.pdf&mode=attachment.md",
-    "index.php?module=documentationGetFile&filename=technical/installation_fr",
-    "index.php?module=documentationGetFile&filename=technical",
-    "docs/api/documentgetfr.html",
-    "docs/api/movementaddfr.html",
-    "docs/api/samplelistfr.html",
-    "docs/api/sampledisplayfr.html",
-    "docs/api/samplewritefr.html",
-    "api/Appeler une API.md",
-    "attachments/Pasted image 20250821154725.png",
-    "objets/Les échantillons.md",
-    "objets/Les campagnes.md",
-    "docs/attachments/pasted-image-20250820192234.png",
-    "docs/images/campagne.png",
-    "attachments/Pasted image 20250820192234.png",
-    "Excalidraw/campagne.md",
+    "droits/Les différents types de droits.md",
+    "droits/La gestion des droits.md",
+    "Excalidraw/droits par campagne.md",
+    "images/droits par campagne.png",
+    "images/droits par campagne (1).png",
+    "images/harvest.png",
     "images/campagne.png",
-    "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
-    "objets/Les métadonnées.md",
-    "docs/images/metadonnees-saisie.png",
-    "docs/images/metadonnees-liste.png",
-    "docs/images/metadonnees-heritees.png",
-    "Excalidraw/metadonnees.md",
-    "objets/Les objets dans Collec-Science.md",
-    "objets/Les contenants et le stockage.md"
+    "droits/Les groupes d'utilisateur.md",
+    "images/échantillon.png",
+    "Excalidraw/campagne.md",
+    "images/sample.png",
+    "images/collection.png",
+    "Excalidraw/échantillon.md",
+    "index.md",
+    "Sans titre",
+    "docs/attachments/pasted-image-20250821154725.png",
+    "docs/attachments/pasted-image-20250820192234.html",
+    "docs/attachments/pasted-image-20250821154725.html",
+    "docs/attachments/pasted-image-20250821190335.html",
+    "docs/attachments/pasted-image-20250821191135.html",
+    "api/Identification pour les API.md",
+    "docs/attachments/pasted-image-20250821190335.png",
+    "docs/attachments/pasted-image-20250821191135.png",
+    "docs/api/identification-pour-les-api.html",
+    "api/Récupérer une liste d'échantillons.md",
+    "docs/api/récupérer-une-liste-d'échantillons.html",
+    "api/Lire un échantillon.md",
+    "docs/api/lire-un-échantillon.html",
+    "api/Créer - modifier un échantillon.md",
+    "docs/api/créer-modifier-un-échantillon.html",
+    "api/Supprimer un échantillon.md",
+    "docs/api/supprimer-un-échantillon.html",
+    "api/Créer un mouvement.md",
+    "api/Les API.md",
+    "api/Ajouter un document à un objet.md",
+    "api/Récupérer un fichier attaché à un objet.md",
+    "administration/Automatiser l'envoi de mails.md",
+    "administration/Associer des documents externes à un échantillon.md",
+    "gestion/Prêter un ou plusieurs échantillons.md",
+    "identification/La double authentification.md",
+    "identification/Les différents mécanismes pour s'identifier.md",
+    "parametres/Créer ou modifier un modèle d’étiquettes.md",
+    "swidentification_fr.md",
+    "api/Récupérer la liste des fichiers attachés à un objet.md",
+    "index.php?module=documentationGetFile&filename=technical/installation_fr/collec_installation_configuration.pdf&mode=attachment.md"
   ]
 }
