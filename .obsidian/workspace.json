@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "7b8d06b40d3a06b5",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/droits par campagne.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "droits par campagne"
-            }
-          },
-          {
             "id": "7f05fef4e8ddf486",
             "type": "leaf",
             "state": {
@@ -47,8 +35,7 @@
               "title": "La gestion des droits"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "droits/La gestion des droits.md",
+                "file": "droits/Les différents types de droits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de La gestion des droits"
+              "title": "Liens sortants de Les différents types de droits"
             }
           },
           {
@@ -169,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "droits/La gestion des droits.md",
+                "file": "droits/Les différents types de droits.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Plan de La gestion des droits"
+              "title": "Plan de Les différents types de droits"
             }
           },
           {
@@ -186,6 +173,16 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "f77a151130d27448",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -211,38 +208,38 @@
   },
   "active": "7e12df1b91b915aa",
   "lastOpenFiles": [
-    "droits/Les différents types de droits.md",
     "droits/La gestion des droits.md",
+    "droits/Les différents types de droits.md",
     "Excalidraw/droits par campagne.md",
+    "index.md",
+    "docs/images/harvest.png",
+    "docs/images/droits-par-campagne.png",
+    "docs/images/collection.png",
+    "docs/images/collection.html",
+    "docs/droits/les-différents-types-de-droits.html",
+    "droits/Les groupes d'utilisateur.md",
+    "docs/droits/les-groupes-d'utilisateur.html",
+    "docs/images/harvest.html",
+    "docs/images/droits-par-campagne.html",
+    "docs/droits/la-gestion-des-droits.html",
+    "docs/droits",
     "images/droits par campagne.png",
     "images/droits par campagne (1).png",
     "images/harvest.png",
     "images/campagne.png",
-    "droits/Les groupes d'utilisateur.md",
     "images/échantillon.png",
     "Excalidraw/campagne.md",
     "images/sample.png",
     "images/collection.png",
     "Excalidraw/échantillon.md",
-    "index.md",
     "Sans titre",
-    "docs/attachments/pasted-image-20250821154725.png",
     "docs/attachments/pasted-image-20250820192234.html",
     "docs/attachments/pasted-image-20250821154725.html",
-    "docs/attachments/pasted-image-20250821190335.html",
-    "docs/attachments/pasted-image-20250821191135.html",
     "api/Identification pour les API.md",
-    "docs/attachments/pasted-image-20250821190335.png",
-    "docs/attachments/pasted-image-20250821191135.png",
-    "docs/api/identification-pour-les-api.html",
     "api/Récupérer une liste d'échantillons.md",
-    "docs/api/récupérer-une-liste-d'échantillons.html",
     "api/Lire un échantillon.md",
-    "docs/api/lire-un-échantillon.html",
     "api/Créer - modifier un échantillon.md",
-    "docs/api/créer-modifier-un-échantillon.html",
     "api/Supprimer un échantillon.md",
-    "docs/api/supprimer-un-échantillon.html",
     "api/Créer un mouvement.md",
     "api/Les API.md",
     "api/Ajouter un document à un objet.md",

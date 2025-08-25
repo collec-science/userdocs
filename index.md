@@ -28,7 +28,9 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 ## [[Les API]]
 
 ## Administration technique
+- [[La gestion des droits]]
 - [[Automatiser l'envoi de mails]]
+
 
 
 

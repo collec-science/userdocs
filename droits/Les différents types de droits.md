@@ -13,8 +13,27 @@ Collec-Science gère 6 droits différents :
 - param
 - collection
 - import
-- manage
+- manage (gestion)
 - consult
+
+
+| Fonction générale dans le logiciel                                                                | admin | param | collection | import | manage (gestion) | consult |
+| ------------------------------------------------------------------------------------------------- | :---: | :---: | :--------: | :----: | :--------------: | :-----: |
+| Gérer les utilisateurs : créer les comptes, gérer les groupes, etc.                               |   X   |       |            |        |                  |         |
+| Accéder aux fonction d'administration (sauvegarde, consultation des logs, etc.)                   |   X   |       |            |        |                  |         |
+| Définir les paramètres de fonctionnement de l'application (paramètres stockés en base de données) |   X   |       |            |        |                  |         |
+| Accéder à l'ensemble des paramétrages dans le logiciel, sauf ce qui dépend du droit *admin*       |       |   X   |            |        |                  |         |
+| Créer des requêtes SQL (module de requête)                                                        |       |   X   |            |        |                  |         |
+| Exécuter des requêtes SQL                                                                         |       |   X   |     X      |  X\*   |       X\*        |         |
+| Créer des collections                                                                             |       |   X   |            |        |                  |         |
+| Créer des types d'échantillons, des types de contenants, des campagnes de prélèvements, etc.      |       |   X   |     X      |        |                  |         |
+| Réaliser des opérations sur des lots d'échantillons ou de contenants                              |       |   X   |    X\*     |        |                  |         |
+| Importer des échantillons                                                                         |       |   X   |    X\*     |  X\*   |                  |         |
+| Créer des contenants ou des échantillons                                                          |       |   X   |    X\*     |  X\*   |       X\*        |         |
+| Créer des mouvements                                                                              |       |   X   |     X      |   X    |        X         |         |
+| Consulter les échantillons ou les contenants                                                      |       |   X   |     X      |   X    |        X         |    X    |
+
+\* : nécessite des droits sur les collections considérées
 
 ## Le droit *admin*
 
@@ -39,7 +58,7 @@ C'est un droit attribué aux administrateurs des collections. Ils peuvent modifi
 
 Il permet d'importer des échantillons pour les collections auxquelles appartient l'utilisateur concerné.
 
-## Le droit *manage*
+## Le droit *manage* (gestion)
 
 C'est le droit de base pour les utilisateurs actifs dans le logiciel. Il permet de :
 
