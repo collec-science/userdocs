@@ -16,21 +16,20 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 - [[Les objets dans Collec-Science]]
 	- [[Les contenants et le stockage]]
 	- [[Les échantillons]]
+	- [[Les métadonnées]]
+	- [[Les campagnes]]
 
 ### Gérer
 - [[Prêter un ou plusieurs échantillons]]
 ## Configurer le logiciel
-- Gérer les droits
 - [[Créer ou modifier un modèle d’étiquettes]]
-- Configurer les collections
+- [[Les collections]]
 	- [[Associer des documents externes à un échantillon]]
 
 ## [[Les API]]
 
 ## Administration technique
-- [[La gestion des droits]]
+- [[Gérer les droits]]
+- [[Les paramètres généraux de l'application]]
 - [[Automatiser l'envoi de mails]]
-
-
-
 

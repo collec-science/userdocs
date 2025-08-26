@@ -16,6 +16,8 @@ Collec-Science gère 6 droits différents :
 - manage (gestion)
 - consult
 
+Ces droits sont attribués à des groupes d'utilisateurs ([[Les groupes d'utilisateurs]]) du même nom, et permettent d'accéder aux divers modules du logiciel, selon le tableau suivant :
+
 
 | Fonction générale dans le logiciel                                                                | admin | param | collection | import | manage (gestion) | consult |
 | ------------------------------------------------------------------------------------------------- | :---: | :---: | :--------: | :----: | :--------------: | :-----: |

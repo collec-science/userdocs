@@ -1,8 +1,8 @@
 ---
-title: Les groupes d'utilisateurs
+title: Les paramètres généraux de l'application
 authors: Éric Quinton
 license: CC-BY
 tags:
-  - groupes
+  - admin
 created: 19/08/2025
 ---

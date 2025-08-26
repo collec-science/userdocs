@@ -1,12 +1,12 @@
 ---
-title: La gestion des droits
+title: Gérer les droits
 authors: Éric Quinton
 license: CC-BY
 tags:
   - droits
 created: 19/08/2025
 ---
-La gestion des droits repose sur des groupes d'utilisateurs ([[Les groupes d'utilisateur]]), qui sont définis par les administrateurs. 
+La gestion des droits repose sur des groupes d'utilisateurs ([[Les groupes d'utilisateurs]]), qui sont définis par les administrateurs. 
 
 Collec-Science met en œuvre plusieurs mécanismes pour gérer les droits d'accès :
 

@@ -8,6 +8,64 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9965119b1d88af5f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "f577237585677e0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "administration/Associer des documents externes à un échantillon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Associer des documents externes à un échantillon"
+            }
+          },
+          {
+            "id": "3483ecda6123b911",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "parametres/Les collections.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les collections"
+            }
+          },
+          {
+            "id": "401d071a0c19950d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "administration/Les paramètres généraux de l'application.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les paramètres généraux de l'application"
+            }
+          },
+          {
             "id": "a6094ab6cfe07ac7",
             "type": "leaf",
             "state": {
@@ -27,15 +85,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "droits/La gestion des droits.md",
+                "file": "droits/Gérer les droits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "La gestion des droits"
+              "title": "Gérer les droits"
+            }
+          },
+          {
+            "id": "a03c04b57ff4d8be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "droits/Les groupes d'utilisateurs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les groupes d'utilisateurs"
+            }
+          },
+          {
+            "id": "117763d950273dab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "identification/Les différents mécanismes pour s'identifier.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les différents mécanismes pour s'identifier"
+            }
+          },
+          {
+            "id": "7c2838eabf82bef2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "objets/Les contenants et le stockage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les contenants et le stockage"
+            }
+          },
+          {
+            "id": "8496cccc9076d420",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "parametres/Les collections.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les collections"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,6 +309,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
@@ -206,35 +322,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7e12df1b91b915aa",
+  "active": "3483ecda6123b911",
   "lastOpenFiles": [
-    "droits/La gestion des droits.md",
+    "docs/site-lib/fonts/085cb93e613ba3d40d2b.woff2",
+    "docs/site-lib/fonts/293fd13dbca5a3e450ef.woff2",
+    "docs/attachments/pasted-image-20250826114413.png",
+    "docs/attachments/pasted-image-20250826114259.png",
     "droits/Les différents types de droits.md",
-    "Excalidraw/droits par campagne.md",
+    "docs/attachments/pasted-image-20250826114214.png",
+    "docs/attachments/pasted-image-20250826114136.png",
+    "docs/attachments/pasted-image-20250826113855.png",
+    "docs/attachments/pasted-image-20250826112605.png",
+    "docs/attachments/pasted-image-20250826105113.png",
+    "droits/Gérer les droits.md",
+    "docs/attachments/pasted-image-20250826105113.html",
+    "docs/droits/gérer-les-droits.html",
+    "droits/Les groupes d'utilisateurs.md",
+    "docs/droits/les-groupes-d'utilisateurs.html",
+    "administration/Les paramètres généraux de l'application.md",
+    "docs/administration/les-paramètres-généraux-de-l'application.html",
     "index.md",
-    "docs/images/harvest.png",
-    "docs/images/droits-par-campagne.png",
-    "docs/images/collection.png",
-    "docs/images/collection.html",
-    "docs/droits/les-différents-types-de-droits.html",
-    "droits/Les groupes d'utilisateur.md",
-    "docs/droits/les-groupes-d'utilisateur.html",
-    "docs/images/harvest.html",
-    "docs/images/droits-par-campagne.html",
-    "docs/droits/la-gestion-des-droits.html",
-    "docs/droits",
-    "images/droits par campagne.png",
-    "images/droits par campagne (1).png",
-    "images/harvest.png",
-    "images/campagne.png",
-    "images/échantillon.png",
+    "parametres/Les collections.md",
+    "docs/attachments/pasted-image-20250826112605.html",
+    "docs/attachments/pasted-image-20250826113855.html",
+    "docs/attachments/pasted-image-20250826114136.html",
+    "docs/attachments/pasted-image-20250826114214.html",
+    "docs/attachments/pasted-image-20250826114259.html",
+    "attachments/Pasted image 20250826114413.png",
+    "attachments/Pasted image 20250826114259.png",
+    "attachments/Pasted image 20250826114214.png",
+    "administration/Associer des documents externes à un échantillon.md",
+    "objets/Les contenants et le stockage.md",
+    "identification/Les différents mécanismes pour s'identifier.md",
+    "Excalidraw/droits par campagne.md",
     "Excalidraw/campagne.md",
-    "images/sample.png",
-    "images/collection.png",
     "Excalidraw/échantillon.md",
-    "Sans titre",
-    "docs/attachments/pasted-image-20250820192234.html",
-    "docs/attachments/pasted-image-20250821154725.html",
     "api/Identification pour les API.md",
     "api/Récupérer une liste d'échantillons.md",
     "api/Lire un échantillon.md",
@@ -245,13 +367,8 @@
     "api/Ajouter un document à un objet.md",
     "api/Récupérer un fichier attaché à un objet.md",
     "administration/Automatiser l'envoi de mails.md",
-    "administration/Associer des documents externes à un échantillon.md",
     "gestion/Prêter un ou plusieurs échantillons.md",
     "identification/La double authentification.md",
-    "identification/Les différents mécanismes pour s'identifier.md",
-    "parametres/Créer ou modifier un modèle d’étiquettes.md",
-    "swidentification_fr.md",
-    "api/Récupérer la liste des fichiers attachés à un objet.md",
-    "index.php?module=documentationGetFile&filename=technical/installation_fr/collec_installation_configuration.pdf&mode=attachment.md"
+    "parametres/Créer ou modifier un modèle d’étiquettes.md"
   ]
 }
