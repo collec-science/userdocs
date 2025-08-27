@@ -35,15 +35,19 @@ Seuls les membres d'une collection peuvent modifier un échantillon qu'elle cont
 Pour qu'un utilisateur puisse créer ou modifier un échantillon, il doit faire partie d'un des groupes attaché à la collection. Dans cet exemple, seuls les membres du groupe *collection* pourront modifier les échantillons de cette collection.
 
 ## Les types d'échantillons rattachés
-
 ![[Pasted image 20250826114259.png]]
+Certaines collections manipulent des types d'échantillons qu'on ne retrouvera pas ailleurs. Pour éviter que ces types "polluent" les autres collections (les interfaces de saisie ou de sélection), il est possible de rattacher spécifiquement certains types à une ou plusieurs collections.
+
+Une fois un type d'échantillon rattaché à une collection, il ne sera plus visible depuis les autres collections, sauf s'il a également été sélectionné dans celles-ci.
 
 ## Les types d'événements rattachés
 
 ![[Pasted image 20250826114214.png]]
-
+C'est le même mécanisme que pour les types d'échantillons : dès lors qu'un type d'événement a été rattaché à une collection, il ne sera plus visible depuis les autres collections.
 ## La gestion des notifications
-
 
 ![[Pasted image 20250826114413.png]]
 
+Il est possible de paramétrer une collection pour que des notifications soient envoyées à une ou plusieurs adresses emails, pour avertir de l'imminence de l'expiration d'une liste d'échantillons ou pour prévenir de l'échéance prochaine d'événements programmés et non réalisés.
+
+Pour que l'envoi des emails fonctionne, il faut programmer un script dans le serveur qui lancera quotidiennement la recherche des échantillons et des événements qui doivent faire l'objet de la notification. Consultez le document [[Automatiser l'envoi de mails]]. Il faut également définir des paramètres globaux au niveau de l'application ([[Les paramètres généraux de l'application]]).

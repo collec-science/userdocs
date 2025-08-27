@@ -47,6 +47,6 @@ Dans _Paramètres > Collections_, passez en mode modification de la collection p
 Si vous souhaitez (re)lancer l'envoi des mails :
 
 - dans les paramètres généraux de l'application (_Administration > Paramètres de l'application_), supprimez la date qui peut être présente dans le champ **notificationLastDate** ;
-- appelez la page *collectionsGenerateMail*
+- appelez la page *collectionsGenerateMail* (adresse dans votre navigateur : https://moninstance.collec-science.mysociety.com/collectionsGenerateMail).
 
 Aucune information ne sera affichée à l'écran (page blanche). Vous pourrez revenir dans les paramètres de l'application pour vérifier que le champ **notificationLastDate** a bien été mis à jour.
