@@ -1,5 +1,5 @@
 {
-  "commitMessage": "\":feat : \\n\\n{{numFiles}} changed\"",
+  "commitMessage": ":feat :\n\n{{numFiles}} changed",
   "autoCommitMessage": "vault backup: {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
