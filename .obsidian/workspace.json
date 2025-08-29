@@ -8,18 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9799356d99c50aec",
+            "id": "9965119b1d88af5f",
             "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
-            }
-          },
-          {
-            "id": "92580f9e77445630",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -27,12 +18,26 @@
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "7c2838eabf82bef2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "objets/Les contenants et le stockage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Les contenants et le stockage"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "15451fd69feb0689",
@@ -125,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "droits/Les différents types de droits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants de index"
+              "title": "Liens sortants de Les différents types de droits"
             }
           },
           {
@@ -172,9 +176,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "f77a151130d27448",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -182,6 +196,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
@@ -194,37 +209,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92580f9e77445630",
+  "active": "7e12df1b91b915aa",
   "lastOpenFiles": [
-    "objets/Les objets dans Collec-Science.md",
-    "objets/Les métadonnées.md",
-    "objets/Les échantillons.md",
-    "objets/Les contenants et le stockage.md",
     "objets/Drawing 2025-08-11 18.33.18.excalidraw.md",
-    "index.md",
-    "images/échantillons dérivés.png",
-    "images/échantillon.png",
-    "images/objets.png",
-    "docs/objets/les-échantillons.html",
-    "docs/objets/les-métadonnées.html",
-    "docs/objets/les-contenants-et-le-stockage.html",
     "docs/objets/drawing-2025-08-11-18.33.18.excalidraw.html",
-    "docs/images/échantillons-dérivés.png",
-    "docs/images/échantillons-dérivés.html",
-    "docs/images/échantillon.png",
-    "docs/images/échantillon.html",
-    "docs/images/objets.png",
-    "docs/images/objets.html",
-    "_templates/Modèle par défaut.md",
-    "_templates",
-    "Excalidraw/échantillons dérivés.md",
+    "administration/Automatiser l'envoi de mails.md",
+    "docs/attachments/pasted-image-20250827185329.png",
+    "parametres/Les collections.md",
+    "install/Les paramètres de fonctionnement.md",
+    "docs/install/les-paramètres-de-fonctionnement.html",
+    "docs/install",
+    "administration/Les paramètres généraux de l'application.md",
+    "docs/attachments/pasted-image-20250827185329.html",
+    "index.md",
+    "Excalidraw/Drawing 2025-08-27 19.07.28.excalidraw.md",
+    "attachments/Pasted image 20250827185329.png",
+    "install",
+    "docs/site-lib/fonts/085cb93e613ba3d40d2b.woff2",
+    "docs/site-lib/fonts/293fd13dbca5a3e450ef.woff2",
+    "docs/attachments/pasted-image-20250826114413.png",
+    "docs/attachments/pasted-image-20250826114259.png",
+    "droits/Les différents types de droits.md",
+    "docs/attachments/pasted-image-20250826114214.png",
+    "docs/attachments/pasted-image-20250826114136.png",
+    "docs/attachments/pasted-image-20250826113855.png",
+    "docs/attachments/pasted-image-20250826112605.png",
+    "docs/attachments/pasted-image-20250826105113.png",
+    "droits/Gérer les droits.md",
+    "docs/attachments/pasted-image-20250826105113.html",
+    "docs/droits/gérer-les-droits.html",
+    "droits/Les groupes d'utilisateurs.md",
+    "docs/droits/les-groupes-d'utilisateurs.html",
+    "attachments/Pasted image 20250826114413.png",
+    "administration/Associer des documents externes à un échantillon.md",
+    "objets/Les contenants et le stockage.md",
+    "identification/Les différents mécanismes pour s'identifier.md",
+    "Excalidraw/droits par campagne.md",
+    "Excalidraw/campagne.md",
     "Excalidraw/échantillon.md",
-    "Excalidraw/objets.md",
-    "Excalidraw",
-    "docs/site-lib/styles/supported-plugins.css",
-    "images/échantillon (1).png",
-    "images/sample.png",
-    "images/subsample.png",
-    "docs/docs/docs/images/subsample.png"
+    "api/Identification pour les API.md",
+    "api/Récupérer une liste d'échantillons.md",
+    "api/Lire un échantillon.md",
+    "api/Créer - modifier un échantillon.md",
+    "api/Supprimer un échantillon.md",
+    "api/Créer un mouvement.md",
+    "api/Les API.md",
+    "api/Ajouter un document à un objet.md",
+    "api/Récupérer un fichier attaché à un objet.md",
+    "gestion/Prêter un ou plusieurs échantillons.md"
   ]
 }
