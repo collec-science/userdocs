@@ -13,6 +13,7 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 - [[La double authentification]]
 
 ### Découvrir le logiciel
+- Ergonomie générale
 - [[Les objets dans Collec-Science]]
 	- [[Les contenants et le stockage]]
 	- [[Les échantillons]]
@@ -20,6 +21,11 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 	- [[Les campagnes]]
 
 ### Gérer
+- La recherche d'échantillons
+- La recherche de contenants
+- Importer des objets
+- Exporter des échantillons vers une autre instance
+	- Modifier les échantillons en dehors du logiciel
 - [[Prêter un ou plusieurs échantillons]]
 ## Configurer le logiciel
 - [[Créer ou modifier un modèle d’étiquettes]]
@@ -27,6 +33,17 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 	- [[Associer des documents externes à un échantillon]]
 
 ## [[Les API]]
+
+- [[Appeler une API]]
+- [[Identification pour les API]]
+- [[Récupérer une liste d'échantillons]]
+- [[Lire un échantillon]]
+- [[Créer - modifier un échantillon]]
+- [[Créer un mouvement]]
+- [[Supprimer un échantillon]]
+- [[Récupérer la liste des fichiers attachés à un objet]]
+- [[Récupérer un fichier attaché à un objet]]
+- [[Ajouter un document à un objet]]
 
 ## Administration technique
 - [[Gérer les droits]]
@@ -40,3 +57,11 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 - faire cohabiter plusieurs instances dans la même machine
 - Paramétrer l'identification en mode Header avec le plugin Mellon, pour utiliser une fédération d'identités
 
+## Participer à la rédaction de la documentation
+
+- [[Base technique]]
+- publier la documentation à partir d'un site interne (hors Github)
+
+
+
+*Vous avez découvert des erreurs dans la documentation ? Vous souhaitez faire des commentaires, proposer des rubriques, voire des contenus ? Ouvrez un ticket sur le site d'hébergement ! C'est ici : https://github.com/collec-science/userdocs/issues/new/choose*

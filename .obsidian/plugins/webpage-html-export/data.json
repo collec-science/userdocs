@@ -22,6 +22,7 @@
       "install",
       "objets",
       "parametres",
+      "redaction",
       "index.md"
     ],
     "useFallbackRenderer": false,
