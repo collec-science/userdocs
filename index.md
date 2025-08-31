@@ -64,4 +64,5 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 
 
 
-*Vous avez découvert des erreurs dans la documentation ? Vous souhaitez faire des commentaires, proposer des rubriques, voire des contenus ? Ouvrez un ticket sur le site d'hébergement ! C'est ici : https://github.com/collec-science/userdocs/issues/new/choose*
+*Vous avez découvert des erreurs dans la documentation ? Vous souhaitez faire des commentaires, proposer des rubriques, voire des contenus ? Ouvrez un ticket sur le site d'hébergement ! 
+C'est ici : https://github.com/collec-science/userdocs/issues/new/choose*
