@@ -232,7 +232,10 @@
       "excalidraw-embedded-light",
       "excalidraw-embedded-dark"
     ],
-    "includeStyleCssIds": [],
+    "includeStyleCssIds": [
+      "excalidraw-embedded-light",
+      "excalidraw-embedded-dark"
+    ],
     "autoDisposeWebpages": true
   },
   "logLevel": "warning",

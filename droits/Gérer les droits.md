@@ -20,3 +20,4 @@ Collec-Science met en œuvre plusieurs mécanismes pour gérer les droits d'acc�
 - des droits attribués à des #collections : seuls les membres des groupes rattachés à une collection pourront modifier les échantillons correspondants ou visualiser les métadonnées.
 - des droits attribués à des #campagnes ([[Les campagnes]]). Si un échantillon est rattaché à une campagne et que des groupes d'utilisateurs sont définis pour celle-ci, seuls les membres de cette campagne pourront modifier l'échantillon, sous réserve que ceux-ci soient également rattachés à la collection considérée :
 ![[droits par campagne.png]]
+Pour aller plus loin : [[Les différents types de droits]]

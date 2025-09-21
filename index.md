@@ -11,6 +11,7 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 ### S'identifier
 - [[Les différents mécanismes pour s'identifier]]
 - [[La double authentification]]
+- Consulter les dernières connexions
 
 ### Découvrir le logiciel
 - Ergonomie générale
@@ -19,19 +20,33 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 	- [[Les échantillons]]
 	- [[Les métadonnées]]
 	- [[Les campagnes]]
+- Le lexique
 
 ### Gérer
 - La recherche d'échantillons
 - La recherche de contenants
-- Importer des objets
+- Importer des objets depuis un fichier CSV
 - Exporter des échantillons vers une autre instance
 	- Modifier les échantillons en dehors du logiciel
+	- importer des objets provenant d'une autre instance (ou modifiés en dehors du logiciel)
 - [[Prêter un ou plusieurs échantillons]]
+- Déclencher des actions de masse sur les objets
+	- Les actions de masse sur les échantillons
+	- Les actions de masse sur les contenants
+- Renommer un champ de métadonnées
+
+## Maintenir
+- Visualiser la dernière version publiée
+	- Consulter les nouveautés
+- consulter les logs
+- visualiser les mouvements
+- rechercher des mouvements cycliques
+- sauvegarder la base de données avant une grosse opération
+- consulter les informations gérées par le serveur web (variables fournies par le serveur web ou variables de la session PHP, configuration PHP)
 ## Configurer le logiciel
 - [[Créer ou modifier un modèle d’étiquettes]]
 - [[Les collections]]
 	- [[Associer des documents externes à un échantillon]]
-
 ## [[Les API]]
 
 - [[Appeler une API]]
@@ -47,6 +62,8 @@ La documentation disponible ici a été rédigée à partir d'août 2025. Elle e
 
 ## Administration technique
 - [[Gérer les droits]]
+	- [[Les différents types de droits]]
+	- [[Les groupes d'utilisateurs]]
 - [[Les paramètres généraux de l'application]]
 - [[Automatiser l'envoi de mails]]
 
