@@ -51,13 +51,16 @@ Techniquement, la commande suivante est lancée par l'application :
 
 Si vous souhaitez mettre au point un modèle d'étiquette en dehors du logiciel (et notamment le contenu du champ *Transformation XSL*), vous devrez :
 
-- récupérer le contenu de ce champ, et l'insérer dans un fichier xsl (utilisez un bloc-notes comme Notepad++, par exemple)
-- générer au moins une fois une étiquette pour pouvoir obtenir le fichier xml
-- puis lancer la commande de génération de l'étiquette depuis un terminal.  
+- dans les paramètres de l'application, (*Administration > Paramètres de l'application*), positionnez la valeur *labelDebugMode* à 1
+- lancez la génération d'une étiquette
+- depuis le serveur web, récupérez les fichiers présents dans le dossier */var/www/collecApp/collec-science/writable/temp*, et notamment le fichier xml (les données à insérer), le fichier xsl (le modèle de l'étiquette) et les fichiers png (les codes optiques générés et le logo) 
+- adaptez la commande fop à votre environnement et exécutez-là depuis un terminal.  
 
 Vous pouvez récupérer le programme fop depuis ce site : https://xmlgraphics.apache.org/fop/download.html. Fop est également disponible dans les dépôts des principales distributions Linux.
 
 Cette manière de faire vous permettra de visualiser plus facilement les messages d'erreur, suffisamment détaillés pour comprendre où le problème se pose.
+
+Une fois votre étiquette mise au point, n'oubliez-pas de repositionner le paramètre *labelDebugMode* à 0.
 
 ## Définir le contenu des codes optiques
 
@@ -165,6 +168,8 @@ Elle permet de modifier la taille de l’étiquette (largeur et hauteur maximale
 	</xsl:template>
 ~~~
 
+### Le tableau
+
 Le contenu proprement dit de l'étiquette est décrit dans *match="object"*. Nous allons commencer par déclarer le tableau (*table*), avec la largeur de chaque colonne.
 ~~~xml
 	<xsl:template match="object">
@@ -246,6 +251,8 @@ La seconde cellule (seconde colonne) est alors rajoutée :
 
 Ici, le QRcode est inséré (sous la forme d'un graphique dont le nom est l'UID de l'objet). La ligne est alors fermée (*</fo:table-row>*), puis le tableau.
 
+### La partie basse de l'étiquette
+
 La partie basse de l'étiquette est générée de la même manière, mais sans utiliser un tableau :
 
 ~~~xml
@@ -267,6 +274,8 @@ La partie basse de l'étiquette est générée de la même manière, mais sans u
 
 Le second code optique est identifié à partir de l'UID suivi de -2.
 
+### Terminer le modèle
+
 Il ne reste plus qu'à fermer les balises et à indiquer au processeur fop de générer un saut de page :
 
 ~~~xml
@@ -277,8 +286,7 @@ Il ne reste plus qu'à fermer les balises et à indiquer au processeur fop de g�
 
 
 Pour aller plus loin dans la mise en page, vous pouvez consulter la [documentation du projet FOP](https://xmlgraphics.apache.org/fop/fo.html), et pour le formatage du texte, [celle concernant XSL](https://www.w3.org/TR/xsl11).
-
-Voici le code complet :
+### Code complet de l'étiquette
 
 ~~~xml
 <?xml version="1.0" encoding="utf-8"?>
