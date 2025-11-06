@@ -20,6 +20,7 @@
       "identification",
       "images",
       "install",
+      "maintain",
       "objets",
       "parametres",
       "redaction",
@@ -244,7 +245,7 @@
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "exportPreset": "online",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
     "(^|\\/)dist\\/",
