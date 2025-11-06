@@ -20,6 +20,7 @@
       "identification",
       "images",
       "install",
+      "maintain",
       "objets",
       "parametres",
       "redaction",
@@ -232,7 +233,10 @@
       "excalidraw-embedded-light",
       "excalidraw-embedded-dark"
     ],
-    "includeStyleCssIds": [],
+    "includeStyleCssIds": [
+      "excalidraw-embedded-light",
+      "excalidraw-embedded-dark"
+    ],
     "autoDisposeWebpages": true
   },
   "logLevel": "warning",
@@ -241,7 +245,7 @@
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "exportPreset": "online",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
     "(^|\\/)dist\\/",

@@ -1,0 +1,5 @@
+- Procédure rapide
+- l'hôte virtuel Apache
+- [[Les paramètres de fonctionnement]]
+- faire cohabiter plusieurs instances dans la même machine
+- Paramétrer l'identification en mode Header avec le plugin Mellon, pour utiliser une fédération d'identités

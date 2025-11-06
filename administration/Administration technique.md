@@ -1,0 +1,5 @@
+- [[Gérer les droits]]
+	- [[Les différents types de droits]]
+	- [[Les groupes d'utilisateurs]]
+- [[Les paramètres généraux de l'application]]
+- [[Automatiser l'envoi de mails]]
