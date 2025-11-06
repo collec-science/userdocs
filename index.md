@@ -7,25 +7,17 @@ created: 19/08/2025
 ---
 La documentation disponible ici a été rédigée à partir d'août 2025. Elle est disponible sous licence [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) - CC-BY.
 
-## [[Pour les utilisateurs]]
-### [[S'identifier]]
-
-### [[Découvrir le logiciel]]
-
-### [[Gérer]]
-
-## [[Pour les administrateurs métiers]]
-### [[Maintenir]]
-
-### [[Configurer le logiciel]]
-
-### [[Les API]]
-
-## [[Administration technique]]
-
-### [[Installer le logiciel]]
-
-### [[Participer à la rédaction de la documentation]]
+- [[Pour les utilisateurs]]
+	- [[S'identifier]]
+	- [[Découvrir le logiciel]]
+	- [[Gérer]]
+- [[Pour les administrateurs métiers]]
+	- [[Maintenir]]
+	- [[Configurer le logiciel]]
+	- [[Les API]]
+- [[Administration technique]]
+- [[Installer le logiciel]]
+- [[Participer à la rédaction de la documentation]]
 
 
 

@@ -1,5 +1,3 @@
-### [[S'identifier]]
-
-### [[Découvrir le logiciel]]
-
-### [[Gérer]]
+- [[S'identifier]]
+- [[Découvrir le logiciel]]
+- [[Gérer]]
