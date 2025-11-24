@@ -62,6 +62,16 @@ Les paramètres sont cumulatifs entre eux, sauf pour les métadonnées, où cell
 | booking_type                                           | Type de réservation                                                                                                                                                                                    |
 | without_container                                      | si positionné à 1, recherche les échantillons qui ne sont pas rangés dans des contenants                                                                                                               |
 
+### Limiter le nombre d'enregistrements retournés
+
+Si vous souhaitez explorer une collection ou un ensemble d'échantillons importants (plusieurs milliers), vous risquez d'être confronté à une saturation des ressources du serveur (le script s'arrêtera et vous ne récupérerez aucune donnée) et à des temps de traitement longs. Pour éviter cela, vous pouvez utiliser deux paramètres complémentaires, en itérant sur le numéro de page :
+
+| Paramètre | Description                                                          |
+| --------- | -------------------------------------------------------------------- |
+| limit     | Nombre d'enregistrements retournés par la requête                    |
+| page      | Numéro de la page à récupérer. La première page commence au numéro 1 |
+
+Il est conseillé d'itérer sur des jeux de 1000 échantillons.
 ## Données retournées
 
 ### Format
