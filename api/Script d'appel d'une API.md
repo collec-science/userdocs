@@ -6,7 +6,7 @@ tags:
   - api
 created: 19/08/2025
 ---
-~~~php
+```php
 <?php
 
 /**
@@ -221,5 +221,4 @@ if ($res == "null") {
         printA(json_decode($res, true));
     }
 }
-
-~~~
+```
