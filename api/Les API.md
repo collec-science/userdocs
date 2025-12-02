@@ -19,4 +19,4 @@ Les API sont des mécanismes qui permettent d'interagir avec Collec-Science depu
 - [[Récupérer un fichier attaché à un objet]]
 - [[Ajouter un document à un objet]]
 
-Un script vous permet de tester l'appel des api : [[Script d'appel d'une API]]
+Un script vous permet de tester l'appel des api : [[Script pour appeler une API]]
