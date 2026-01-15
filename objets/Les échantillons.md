@@ -30,3 +30,39 @@ Les échantillons dérivés peuvent être d'un type différent de l'échantillon
 ### Les échantillons composés
 À partir du sous-échantillonnage de plusieurs échantillons différents, il est possible de créer un nouvel échantillon, dit *échantillon composé*. Ce type d'échantillon est utilisé pour réaliser des analyses globales pour rechercher des occurrences rares d'un paramètre, avant de rechercher plus finement l'échantillon qui le porte.
 Les échantillons composés peuvent être créés soit depuis le détail d'un échantillon lors de la réalisation d'un sous-échantillonnage, soit depuis la liste des échantillons : il faut alors que la quantité prélevée soit identique pour chaque échantillon parent. Il est toujours possible de rattacher un échantillon composé déjà existant à un sous-échantillonnage réalisé sur un autre échantillon parent.
+
+## La traçabilité des échantillons
+
+À partir de la version v26.1.0, Collec-Science intègre des informations permettant de retracer l'historique des modifications d'un échantillon :
+- la date de création et le login de l'utilisateur qui opère l'opération sont enregistrés ;
+- toutes les modifications apportées soit aux données générales de l'échantillon, soit aux métadonnées, sont enregistrées, avec la date et le login concerné.
+
+Techniquement, l'enregistrement des modifications est réalisé selon le protocole suivant :
+- le login et la date de modification sont enregistrés ;
+- les anciennes valeurs qui ont été modifiées sont également enregistrées, mais pas la nouvelle valeur saisie : c'est la valeur actuelle (ou celle qui aura été modifiée ultérieurement) ;
+- si une valeur est saisie pour la première fois, l'information qui est enregistrée est que cette valeur est créée.
+
+Ainsi, à partir des valeurs actuelles de l'échantillon, il est possible de reconstituer toutes les modifications apportées. Voici un exemple :
+
+![[Pasted image 20260114104444.png]]
+
+- La première ligne contient les valeurs actuelles. L'échantillon a été créé à 9 heures 33 ;
+-  à 10:37 (troisième ligne), le référent a été ajouté ;
+- à 10:38 (seconde ligne), la date d'échantillonnage a été modifiée. Sa valeur initiale était au 14/1.
+
+Ainsi, pour retrouver tout l'historique, il faut parcourir le tableau de bas en haut (ou inverser l'ordre de tri de la date).
+
+L'historique n'est pas supprimable par l'utilisateur, sauf en cas de suppression de l'échantillon : toutes les informations le concernant sont alors effacées.
+
+Actuellement, les événements, les documents associés ou les réservations ne font pas l'objet d'une conservation historique.
+## Les droits d'accès
+
+Collec-Science met en œuvre un certain nombre de mécanismes pour garantir que seuls les personnes autorisées puissent accéder à un échantillon.
+
+Par défaut, seuls les utilisateurs disposant du droit *consult* ([[Les différents types de droits]]) peuvent consulter les échantillons, mais avec des restrictions : les documents, les métadonnées et l'historique de modification ne sont pas accessibles.
+
+Pour pouvoir modifier un échantillon ou consulter les informations masquées (documents, métadonnées, historique), il faut disposer du droit *manage* (ou *gestion*) et, en même temps, faire partie d'un groupe d'utilisateurs ([[Les groupes d'utilisateurs]]) associé à la collection d'appartenance de l'échantillon.
+
+Toutefois, si l'échantillon a été rattaché également à une campagne, et qu'un ou plusieurs groupes sont rattachés à celle-ci, l'utilisateur ne pourra accéder aux informations masquées ou modifier l'échantillon s'il fait également partie d'un des groupes associé à la campagne.
+
+Concernant les informations masquées, il est toutefois possible de les rendre accessibles à tous les détenteurs du droit *consult* : il faut alors modifier le paramètre *consultSeesAll* dans les paramètres généraux ([[Les paramètres généraux de l'application]]). Dans ce cas, aucune information confidentielle ne pourra être stockée dans le logiciel sans qu'elle soit accessible à tous ceux qui peuvent se connecter.
