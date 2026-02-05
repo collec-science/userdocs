@@ -20,6 +20,8 @@ Les mots de passe doivent, au minimum :
 
 Si vous perdez votre mot de passe, un lien vous sera adressé par messagerie pour vous permettre de le réinitialiser.
 
+Vous disposez de 5 essais pour rentrer votre mot de passe. Ensuite, votre compte est bloqué pendant 10', mais si vous refaites un essai pendant ces 10', le compteur est réinitialisé.
+
 ### Identification auprès d'un annuaire d'entreprise
 
 Plusieurs méthodes sont utilisables pour vous permettre de vous identifier auprès du service d'identification de votre entreprise :
