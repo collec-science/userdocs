@@ -60,3 +60,90 @@ Cette opération impose qu'une collection soit sélectionnée pour qu'elle puiss
 Vous pouvez indiquer le pays de collecte, utilisé dans le cadre du protocole de Nagoya, en le sélectionnant dans la liste officielle des pays :
 
 ![[Pasted image 20260205111115.png]]
+### Rattacher à une campagne de prélèvement
+
+Sélectionnez la campagne de prélèvement pour y rattacher les échantillons : 
+
+![[Pasted image 20260205154006.png]]
+
+### Modifier le statut
+
+La liste des statuts est fixe, et ne peut être modifiée (seuls les libellés peuvent être adaptés). Les statuts sont identiques pour les échantillons ou les #contenants . Les #statuts en vigueur sont :
+
+- État normal : tout échantillon stocké localement ;
+- objet pré-réservé pour usage ultérieur : cela concerne peu les échantillons, mais est surtout utilisé pour les contenants ;
+- objet détruit : cela concerne des échantillons dont on veut conserver la trace, mais qui n'existent plus ;
+- HS - vide - non conforme : c'est une variante du statut précédent ;
+- objet perdu : objet dont on a perdu la trace ;
+- objet prêté : normalement, ce statut est géré automatiquement par le logiciel quand on prête un échantillon.
+
+
+![[Pasted image 20260205154103.png]]
+
+Attention : après modification du statut, les échantillons n'apparaîtront plus par défaut dans la liste des échantillons, sauf si on modifie les critères de recherche en désactivant "État normal" ou en sélectionnant un statut particulier.
+
+![[Pasted image 20260205154811.png]]
+### Entrer ou déplacer dans un même contenant
+
+Si l'interface proposé est identique à celui utilisé pour la création d'un mouvement, il doit être manipulé avec précaution, notamment si vous voulez indiquer un numéro de ligne et de colonne. Dans ce cas de figure, les échantillons seront tous rangés au même endroit.
+
+![[Pasted image 20260205155019.png]]
+### Modifier la collection d'affectation
+
+L'utilisateur qui réalise l'opération doit disposer des droits à la fois sur la collection d'origine et sur la nouvelle collection.
+
+![[Pasted image 20260205155229.png]]
+
+### Assigner un parent aux échantillons
+
+Cela permet *a posteriori* d'affecter un parent à un ou plusieurs échantillons "enfants". 
+
+![[Pasted image 20260205155428.png]]
+
+Dans la zone *Recherchez le parent*, indiquez l'UID ou l'identifiant métier, puis cliquez sur la loupe pour le rechercher. Le parent (ou les parents potentiels, le logiciel réalise une recherche "plein texte") est alors affiché dans la liste *Parent à affecter*.
+
+Avec ce module, faites attention à ne pas créer une boucle (un parent qui contiendrait un enfant qui lui-même contiendrait le parent) : vous risqueriez de faire planter le serveur en saturant toutes les ressources !
+
+### Créer un échantillon composé
+
+Un échantillon composé est un échantillon qui contient un sous-échantillonnage de plusieurs autres échantillons, par exemple pour réaliser une analyse globale.
+
+![[Pasted image 20260205155936.png]]
+Vous devrez indiquer :
+
+- la quantité de sous-échantillonnage que vous retirez de chaque parent. Dans ce contexte précis, la quantité retirée de chaque parent est identique : si vous souhaitez des quantités différentes, vous devrez soit réaliser des modifications depuis le détail de l'échantillon qui sera créé, soit créer les sous-échantillonnages un par un ;
+- l'identifiant métier de l'échantillon créé ;
+- sa collection d'affectation ;
+- le type d'échantillon créé.
+
+Vous avez également la possibilité de rattacher des échantillons parents à un échantillon composé déjà existant. Dans ce cas de figure, indiquez son UID ou son identifiant métier puis cliquez sur la loupe pour le retrouver dans la base de données.
+
+Par défaut, la quantité de l'échantillon créé est la somme des quantités prélevées de chaque échantillon parent. Toutefois, dans certains cas de figure, l'échantillon que vous allez créer peut être plus volumineux (ajout d'un solvant, par exemple). Si vous créez l'échantillon composé *ex nihilo*, vous avez alors la possibilité d'indiquer la quantité réelle qu'il contiendra.
+
+### Mettre ou sortir de la corbeille
+
+La corbeille fonctionne comme pour les logiciels de messagerie : si vous mettez un message dans celle-ci, celui-ci n'est plus visible, mais n'est pas encore supprimé. De la même manière, vous pouvez mettre de côté un échantillon avant de le supprimer.
+
+Si un échantillon a été mis à la corbeille, il ne sera plus visible, sauf si vous changez les paramètres de recherche :
+
+![[Pasted image 20260205160828.png]]
+
+### Supprimer les échantillons
+
+Cette opération supprime de manière définitive les échantillons sélectionnés. Si vous hésitez, placez-les plutôt dans la corbeille...
+
+La suppression d'un échantillon ne fonctionnera pas si des échantillons dérivés ont été créés à partir de celui-ci.
+
+### Supprimer les échantillons et tous les échantillons dérivés
+
+Cette fonction permet de faire un grand ménage : il va supprimer tous les échantillons et tous les échantillons enfants (dérivés) qui lui sont rattachés, et ceci en cascade.
+
+Manipulez cette fonctionnalité avec précaution !
+
+### Ajouter les mêmes documents aux échantillons
+
+Vous retrouverez ici le même interface qui permet de rattacher un document à un échantillon. Attention : le document sera dupliqué dans la base de données pour chaque échantillon de rattachement.
+
+![[Pasted image 20260205161336.png]]
+
+Vous pouvez indiquer la date de création et une description.
