@@ -1,4 +1,5 @@
 - La recherche d'échantillons
+	- [[Les opérations de groupe sur les échantillons]]
 - La recherche de contenants
 - Importer des objets depuis un fichier CSV
 - Exporter des échantillons vers une autre instance
