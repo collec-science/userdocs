@@ -6,7 +6,3 @@
 	- Modifier les échantillons en dehors du logiciel
 	- importer des objets provenant d'une autre instance (ou modifiés en dehors du logiciel)
 - [[Prêter un ou plusieurs échantillons]]
-- Déclencher des actions de masse sur les objets
-	- Les actions de masse sur les échantillons
-	- Les actions de masse sur les contenants
-- Renommer un champ de métadonnées
