@@ -59,19 +59,18 @@ Techniquement, l'enregistrement des modifications est réalisé selon le protoco
 
 Ainsi, à partir des valeurs actuelles de l'échantillon, il est possible de reconstituer toutes les modifications apportées. Voici un exemple :
 
-![[Pasted image 20260205103223.png]]
+![[Pasted image 20260224092108.png]]
 
 - La première ligne contient les valeurs actuelles. L'échantillon a été créé le 14/1/2026 à 9 heures 33 (c'est dans la ligne de commentaires, avant le tableau) ;
--  à 10:37 (dernière ligne), le référent a été ajouté ;
-- à 10:38 (avant-dernière ligne), la date d'échantillonnage a été modifiée. Sa valeur initiale était au 14/1 ;
-- diverses modifications, notamment dans les identifiants secondaires, ont été apportées (troisième et cinquième lignes) ;
-- un mouvement d'entrée a été généré le 5/2 (seconde ligne). Les historiques des mouvements sont détaillés dans l'onglet *Mouvements*.
+- l'échantillon a été déplacé dans le congélateur le 13/2 à 17:25. Le détail des mouvements est visible dans l'onglet *Mouvements*
+- un événement de type "Autre" est intervenu le 14/2. Le détail des événements est visible dans l'onglet *Événements/Prêts*
+- le 15/2, plusieurs modifications du type d'échantillon sont intervenues.
 
 Ainsi, pour retrouver tout l'historique, il faut parcourir le tableau de bas en haut (ou inverser l'ordre de tri de la date).
 
 L'historique n'est pas supprimable par l'utilisateur, sauf en cas de suppression de l'échantillon : toutes les informations le concernant sont alors effacées.
 
-Actuellement, les événements, les documents associés ou les réservations ne font pas l'objet d'une conservation historique.
+Actuellement, les documents associés ou les réservations ne font pas l'objet d'une conservation historique. Si les événements sont bien affichés dans ce tableau, ils ne font également pas l'objet d'une conservation historique : ils peuvent être supprimés par les utilisateurs.
 ## Les droits d'accès
 
 Collec-Science met en œuvre un certain nombre de mécanismes pour garantir que seuls les personnes autorisées puissent accéder à un échantillon.
