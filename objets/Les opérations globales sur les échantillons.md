@@ -1,5 +1,5 @@
 ---
-title: Les opérations de groupes sur les échantillons
+title: Les opérations globales sur les échantillons
 authors: Éric Quinton
 license: CC-BY
 tags:

@@ -14,7 +14,7 @@ L'interface est organisé en trois parties :
 
 - la partie haute permet de définir les critères de recherche ;
 - la partie centrale affiche la liste des échantillons (ou la carte de leurs emplacements), et permet de réaliser quelques opérations sur ceux-ci, comme l'impression d'étiquettes ou l'export des données ;
-- la partie basse, accessible si vous disposez du droit "collection" (cf. [[Les différents types de droits]]), permet de réaliser des opérations sur plusieurs échantillons à la fois. Ces opérations sont décrites ici : [[Les opérations de groupe sur les échantillons]].
+- la partie basse, accessible si vous disposez du droit "collection" (cf. [[Les différents types de droits]]), permet de réaliser des opérations sur plusieurs échantillons à la fois. Ces opérations sont décrites ici : [[Les opérations globales sur les échantillons]].
 
 ## L'interface de sélection
 
@@ -58,18 +58,19 @@ Pour rechercher par UID, vous avez deux possibilités :
 La zone *identifiants ou UUID* vous permet de rechercher à partir de l'identifiant métier ou de l'UUID de l'échantillon :
 
 - en indiquant l'identifiant métier, la recherche va être de type plein texte, c'est à dire que le libellé *bx10* ramènera aussi bien *bx10-12* que *acbx1000*, par exemple ;
+- la recherche est indépendante de la casse : vous pouvez saisir aussi bien *BX10* que *bx10* ;
 - si la longueur que vous saisissez dans cette zone est de 36 caractères, la recherche sera réalisée en cherchant l'UUID correspondant.
 
 Si une douchette est connectée à votre ordinateur, vous pouvez également scanner un QRCODE (après avoir positionné le curseur dans cette zone) : le programme extraira alors automatiquement l'identifiant métier de l'étiquette.
 
 #### La recherche par collection
 
-Pour rechercher par collection : vous disposez de deux possibilités :
+Vous disposez de deux possibilités pour rechercher par collection :
 
 - soit vous sélectionnez une seule collection, dans la liste *Collection* ;
 - soit vous pouvez rechercher dans plusieurs collections, en en sélectionnant plusieurs (ctrl + clic souris) dans la zone *recherche multiple*.
 
-Attention : seules les recherches effectuées à partir de la zone *Collection* ouvrent la possibilité de réaliser certaines opérations de groupe (*cf.* [[Les opérations de groupe sur les échantillons]]).
+Attention : seules les recherches effectuées à partir de la zone *Collection* ouvrent la possibilité de réaliser certaines opérations de groupe (*cf.* [[Les opérations globales sur les échantillons]]).
 
 #### La recherche par statut
 
@@ -91,9 +92,9 @@ Si vous n'indiquez pas de type, vous pourrez rechercher dans l'ensemble des mét
 
 La recherche est une recherche plein texte : si vous indiquez *alosa*, le programme recherchera indifféremment *alosa sp.*, *alosa fallax*, etc. Le programme ne tient également pas compte de la casse.
 
-Vous pouvez indiquer plusieurs valeurs à rechercher pour la même métadonnée (critère *ou*). Dans l'exemple ci-dessus, le programme recherchera les échantillons dont la métadonnée *taxon* contient soit le libellé *alosa*, soit le libellé *sturio*.
+Vous pouvez indiquer plusieurs valeurs à rechercher pour la même métadonnée (critère *ou*), en les séparant par une virgule. Dans l'exemple ci-dessus, le programme recherchera les échantillons dont la métadonnée *taxon* contient soit le libellé *alosa*, soit le libellé *sturio*.
 
-Enfin, en cliquant sur l'icone *plus*, vous pourrez afficher jusqu'à deux lignes supplémentaires de recherche sur les métadonnées, ce qui vous permettra de compléter vos critères en sélectionnant une seconde métadonnée dans les échantillons. Cette recherche est cumulative : seuls les échantillons qui contiennent les deux (ou trois) métadonnées seront sélectionnés.
+Enfin, en cliquant sur l'icone *plus*, vous pourrez afficher jusqu'à deux lignes supplémentaires de recherche sur les métadonnées, ce qui vous permettra de compléter vos critères en sélectionnant une seconde métadonnée dans les échantillons. Cette recherche est cumulative : seuls les échantillons qui contiennent les deux (ou trois) métadonnées recherchées seront sélectionnés.
 
 Cet onglet permet également de limiter l'affichage des métadonnées dans la liste. En sélectionnant une métadonnée dans la liste *N'afficher qu'une métadonnée*, seule cette métadonnée sera affichée dans la liste des échantillons (*cf.* [[La liste des échantillons]]).
 
@@ -103,9 +104,9 @@ Cet onglet permet également de limiter l'affichage des métadonnées dans la li
 
 L'onglet *Dates* va vous permettre de rechercher les échantillons selon plusieurs dates :
 
-- la date de création dans la base : c'est la date technique qui correspond à l'ajout de l'échantillon dans la base de données
-- la date d'échantillonnage : c'est la date à laquelle l'échantillon a été récolté
-- la date d'expiration : si vous avez indiqué une date à laquelle l'échantillon n'est plus utilisable, vous pouvez utiliser cette possibilité
+- la date de création dans la base : c'est la date technique qui correspond à l'ajout de l'échantillon dans la base de données ;
+- la date d'échantillonnage : c'est la date à laquelle l'échantillon a été récolté ;
+- la date d'expiration : si vous avez indiqué une date à laquelle l'échantillon n'est plus utilisable, vous pouvez utiliser cette possibilité ;
 - la date technique de dernier changement : c'est la date où l'échantillon a été modifié pour la dernière fois dans la base de données.
 
 Vous pouvez indiquer une fourchette de temps pour la recherche. Par défaut, celle-ci est positionnée sur une année.
@@ -138,7 +139,7 @@ Si vous avez indiqué des coordonnées géographiques dans vos échantillons, vo
 
 ![[Pasted image 20260216110700.png]]
 
-Si vous utilisez régulièrement les mêmes critères de recherche, et qu'ils sont nombreux à positionner, vous avez la possibilité d'enregistrer ces critères une bonne fois pour toute, à partir de cet onglet.
+Si vous utilisez régulièrement les mêmes critères de recherche et qu'ils sont nombreux à positionner, vous avez la possibilité d'enregistrer ces critères une bonne fois pour toute, à partir de cet onglet.
 
 Pour créer une nouvelle recherche enregistrée :
 
@@ -173,6 +174,6 @@ En cliquant sur l'icône d'un échantillon, une bulle s'affiche avec son UID et 
 
 Sur la carte, en cliquant sur l'icône <flèche vers le bas>, vous pourrez obtenir une image de la carte, au format paysage. L'image est calculée à partir du centre de la carte.
 
-## Les opérations de groupe
+## Les opérations globales
 
-Consultez cette page pour en savoir plus sur les opérations globales possibles : [[Les opérations de groupe sur les échantillons]]
+Consultez cette page pour en savoir plus sur les opérations globales possibles : [[Les opérations globales sur les échantillons]]
