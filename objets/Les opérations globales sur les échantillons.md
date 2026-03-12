@@ -83,6 +83,14 @@ La liste des statuts est fixe, et ne peut être modifiée (seuls les libellés p
 Attention : après modification du statut, les échantillons n'apparaîtront plus par défaut dans la liste des échantillons, sauf si on modifie les critères de recherche en désactivant "État normal" ou en sélectionnant un statut particulier.
 
 ![[Pasted image 20260205154811.png]]
+
+### Changer le type d'échantillons
+
+![[Pasted image 20260312114654.png]]
+
+Vous pouvez changer le type d'échantillon des échantillons sélectionnés en une seule opération. 
+
+Avant de lancer l'opération, assurez-vous que le nouveau type d'échantillon est compatible avec les métadonnées associées avec l'ancien type, sinon vous risquez de perdre des informations.
 ### Entrer ou déplacer dans un même contenant
 
 Si l'interface proposé est identique à celui utilisé pour la création d'un mouvement, il doit être manipulé avec précaution, notamment si vous voulez indiquer un numéro de ligne et de colonne. Dans ce cas de figure, les échantillons seront tous rangés au même endroit.
