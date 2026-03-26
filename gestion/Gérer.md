@@ -1,7 +1,8 @@
 - La recherche d'échantillons
 	- [[Les opérations globales sur les échantillons]]
 - La recherche de contenants
-- Importer des objets depuis un fichier CSV
+- [[Importer des échantillons ou des contenants]]
+	- [[L'import de masse]]
 - Exporter des échantillons vers une autre instance
 	- Modifier les échantillons en dehors du logiciel
 	- importer des objets provenant d'une autre instance (ou modifiés en dehors du logiciel)
