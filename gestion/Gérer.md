@@ -1,7 +1,8 @@
-- La recherche d'échantillons
+- [[Chercher les échantillons]]
 	- [[Les opérations globales sur les échantillons]]
 - La recherche de contenants
 - [[Importer des échantillons ou des contenants]]
+	- [[Générer le modèle pour les importations de masse]]
 	- [[L'import de masse]]
 - Exporter des échantillons vers une autre instance
 	- Modifier les échantillons en dehors du logiciel
