@@ -32,7 +32,7 @@ Cochez *Importer des contenants*. Vous pourrez alors indiquer :
 - le type de contenant (à partir de la famille) : il vous permettra d'avoir le bon libellé dans la ligne d'exemple qui sera générée, mais vous pourrez bien évidemment renseigner n'importe quel type par la suite ;
 - si vous souhaitez ranger les contenants dans d'autres contenants : dans ce cas, les colonnes *container_parent_identifier*, *container_column* et *container_line* seront rajoutées au fichier ;
 - si vous voulez décrire les contenants avec la colonne *container_comment* ;
-- si vous disposez déjà d'un identifiant de type UUID pour vos contenants (générés en principe à partir d'une autre application).
+- si vous disposez déjà d'un identifiant de type #UUID pour vos contenants (générés en principe à partir d'une autre application).
 
 N'oubliez pas d'indiquer les identifiants secondaires si nécessaire (cf. [[#Rajouter des identifiants secondaires]], ci-dessous).
 
@@ -56,7 +56,7 @@ Cochez *Importer des échantillons*. Vous pourrez alors indiquer :
 	- *échantillon dérivé* : la colonne *sample_parent_identifier* va être rajoutée, pour pouvoir indiquer l'identifiant métier du parent. Le parent doit soit exister au préalable, soit figurer plus haut dans le fichier ;
 	- *échantillon composé* : si vous créez un échantillon composé, vous devrez indiquer dans la colonne *composite_parents_identifier* qui va être rajoutée au fichier l'ensemble des identifiants métiers des parents, séparés par une virgule ;
 	- *localisation GPS* : les colonnes *wgs84_x* et *wgs84_y* seront rajoutées. Les coordonnées devront être indiquées sous forme numérique, avec le point comme séparateur décimal ;
-	- si l'échantillon possède déjà un identifiant de type UUID (généré à partir d'une autre application ou d'une autre instance Collec-Science), vous pourrez l'indiquer ici.
+	- si l'échantillon possède déjà un identifiant de type #UUID (généré à partir d'une autre application ou d'une autre instance Collec-Science), vous pourrez l'indiquer ici.
 
 
 Une ligne d'exemple par type d'échantillon sélectionné sera rajoutée au fichier. Si des métadonnées sont obligatoires, vous retrouverez sur cette ligne d'exemple le terme *obligatoire* dans la colonne correspondante.
