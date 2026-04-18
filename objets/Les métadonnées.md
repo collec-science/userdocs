@@ -43,30 +43,23 @@ Prenons un exemple. Un premier type d'échantillons est *poisson*. À partir d'u
 ![[metadonnees-heritees.png]]
 Les métadonnées permettant de qualifier le poisson (son taxon, ses mensurations) sont complétées par la nature du tissu qui est prélevé.
 Si les métadonnées sont modifiées dans le parent, par exemple le taxon, elles seront également mises à jour dans les échantillons dérivés.
-## Modifier le nom d'une métadonnée
-Cette opération est complexe, et nécessite d'intervenir avec des commandes SQL directement dans la base de données : assurez-vous de disposer d'une sauvegarde avant de lancer l'opération !
-Imaginons que nous souhaitions renommer le champ "espece" en "species".
-### Première étape : renommer le champ dans la base de données
-Avec un éditeur SQL, nous allons d'abord vérifier l'opération de renommage avant de l'exécuter :
+## Modifier le nom d'un champ de métadonnées
 
-~~~
-select sample_id, metadata, metadata -> 'espece',
-jsonb_insert(metadata::jsonb, '{"species"}'::text[], (metadata->'espece' )::jsonb) - 'espece'
-from col.sample
-where metadata ->>'espece' is not null;
-~~~
-La requête permet de rajouter un champ "species" dont le contenu est 'espece' (*jsonb_insert*), puis de supprimer le champ 'espece' (- 'espece').
-Pour mettre à jour les données, il suffit de modifier la requête ainsi :
-~~~
-update col.sample
-set metadata = jsonb_insert(metadata::jsonb, '{"species"}'::text[], (metadata->'espece' )::jsonb) - 'espece'
-where metadata ->> 'espece' is not null;
-~~~
-### Seconde étape : modifier le ou les modèles de métadonnées correspondants
-Dans le logiciel, modifiez les modèles de métadonnées pour renommer le champ 'espece' en 'species'.
-Vous pouvez visualiser rapidement la liste des modèles de métadonnées qui contiennent le libellé concerné :
-~~~
-select metadata_id, metadata_name, metadata_schema
-from col.metadata
-where metadata_schema::text like '%espece%';
+La modification du nom d'un champ de métadonnées implique deux opérations : 
+- la modification du nom dans le modèle
+- la modification de la métadonnée dans les échantillons concernés.
+
+Si vous modifiez le nom d'un champ dans la description du modèle, le renommage sera reporté automatiquement dans les échantillons qui utilisent ce modèle.
+
+Vous pouvez également renommer globalement un champ, quel que soit le modèle qui l'utilise (à partir de la version v26.0.0). Depuis la liste des modèles de métadonnées, en bas d'écran, choisissez le formulaire *Renommer un champ de métadonnées globalement*, indiquez l'ancien nom et le nouveau, puis lancez l'opération : les modèles seront mis à jour ainsi que l'ensemble des échantillons qui contiennent cette métadonnée.
+
+## Supprimer un champ de métadonnées
+
+Si vous souhaitez supprimer un champ de métadonnées de vos échantillons, vous devrez lancer (ou faire exécuter, si vous ne gérez pas le serveur qui héberge votre instance) cette commande SQL :
+
+~~~sql
+update sample
+set metadata::jsonb - 'ma_metadonnee' 
+from sample 
+where metadata::text like '%"ma_metadonnee":%';
 ~~~

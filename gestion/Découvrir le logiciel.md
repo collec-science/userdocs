@@ -4,4 +4,4 @@
 	- [[Les échantillons]]
 	- [[Les métadonnées]]
 	- [[Les campagnes]]
-- Le lexique
+- [[Le lexique]]

@@ -43,6 +43,7 @@ Par défaut, c'est à dire si aucun *template_name* n'est défini, les informati
 | dbuid_origin         | identifiant initial de l'échantillon, si saisi dans une autre base de données |
 | collection_name      | nom de la collection                                                          |
 | sample_type_name     | nom du type d'échantillon                                                     |
+| sample_type_code     | code utilisé pour identifier de manière sûre le type d'échantillon            |
 | sample_creation_date | date de création de l'échantillon                                             |
 | sampling_date        | date d'échantillonnage                                                        |
 | metadata             | liste des métadonnées associées                                               |
