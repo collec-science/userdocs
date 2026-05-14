@@ -37,8 +37,8 @@
       "alwaysEnabled": false,
       "hideSettingsButton": false,
       "featurePlacement": {
-        "selector": ".footer",
-        "type": "before"
+        "selector": ".header",
+        "type": "start"
       },
       "displayTitle": ""
     },
@@ -82,7 +82,7 @@
     },
     "fileNavigationOptions": {
       "featureId": "file-navigation",
-      "enabled": false,
+      "enabled": true,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
@@ -139,7 +139,7 @@
     },
     "graphViewOptions": {
       "featureId": "graph-view",
-      "enabled": true,
+      "enabled": false,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
