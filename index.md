@@ -1,8 +1,8 @@
 ---
-title: "Collec-Science : utiliser le logiciel"
+title: "Collec-Science : accueil documentation"
 authors: Éric Quinton
 license: CC-BY
-tags: 
+tags:
 created: 19/08/2025
 ---
 La documentation disponible ici a été rédigée à partir d'août 2025. Elle est disponible sous licence [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) - CC-BY.
