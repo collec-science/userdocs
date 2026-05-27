@@ -17,6 +17,8 @@ Les échantillons sont caractérisés par :
 - une date d'échantillonnage, une date d'expiration, une date de création dans Collec-Science ;
 - des #métadonnées ([[Les métadonnées]]): ce sont des informations complémentaires qui permettent de caractériser l'échantillon (par exemple, le taxon, les profondeurs des carottes sédimentaires, etc.).
 
+Ils peuvent être associés à un protocole/opération de collecte ou de génération ([[Les protocoles de collecte]]).
+
 Les échantillons peuvent être composés de plusieurs éléments, qui vont être utilisés pour réaliser du sous-échantillonnage (notion d’aliquote en chimie).
 
 Enfin, un échantillon peut être subdivisé en d'autres échantillons (notion d'échantillon dérivé), voire être composé de plusieurs échantillons (après sous-échantillonnage).

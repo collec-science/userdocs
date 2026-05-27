@@ -84,6 +84,11 @@ Attention : après modification du statut, les échantillons n'apparaîtront plu
 
 ![[Pasted image 20260205154811.png]]
 
+### Affecter une opération d'un protocole
+
+![[Pasted image 20260527161107.png]]
+La liste des opérations comprend le nom du protocole, sa version, puis les opérations et leur numéro de version.
+
 ### Changer le type d'échantillons
 
 ![[Pasted image 20260312114654.png]]

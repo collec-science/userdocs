@@ -37,10 +37,10 @@
       "alwaysEnabled": false,
       "hideSettingsButton": false,
       "featurePlacement": {
-        "selector": ".header",
+        "selector": ".footer",
         "type": "start"
       },
-      "displayTitle": ""
+      "displayTitle": "Liens vers cette page"
     },
     "tagOptions": {
       "featureId": "tags",

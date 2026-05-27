@@ -114,14 +114,14 @@ Vous pouvez indiquer une fourchette de temps pour la recherche. Par défaut, cel
 Si vous utilisez le module de réservation des échantillons, vous avez également la possibilité de rechercher les échantillons réservés (ou non) sur une période.
 
 ### L'onglet Divers
-
-![[Pasted image 20260216105112.png]]
+![[Pasted image 20260527161424.png]]
 
 À partir de cet onglet, vous pouvez rechercher :
 
 - les échantillons "appartenant" à un *référent* ;
 - les échantillons qui n'ont pas été rangés dans un contenant (*Échantillons sans contenants*) ;
 - ceux qui ont été récoltés pendant une *campagne de prélèvement*, ou ceux qui ont bénéficié d'une autorisation administrative (*N° d'autorisation*). La recherche par numéro d'autorisation s'effectue indépendamment des campagnes de prélèvement auxquelles elles sont rattachées ;
+- ceux qui sont associés à un protocole/opération de collecte (*cf.* [[Les protocoles de collecte]]) ;
 - ceux qui ont été déstockés pour un motif particulier (*Motif de déstockage*) ;
 - enfin, pour les échantillons pour lesquels vous avez activé le sous-échantillonnage, vous pouvez rechercher ceux qui disposent encore d'une certaine quantité (*quantité minimale disponible dans l'échantillon*) ou ceux qui sont quasiment vides (*maximale*).
 
