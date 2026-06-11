@@ -44,9 +44,9 @@ Dans _Paramètres > Collections_, passez en mode modification de la collection p
 ![[Pasted image 20250821190335.png]]
 ## Déclencher un envoi de mails manuellement
 
-Si vous souhaitez (re)lancer l'envoi des mails :
+Si vous souhaitez (re)lancer l'envoi des mails (à partir de la version v26.2.0) :
 
 - dans les paramètres généraux de l'application (_Administration > Paramètres de l'application_), supprimez la date qui peut être présente dans le champ **notificationLastDate** ;
-- appelez la page *collectionsGenerateMail* (adresse dans votre navigateur : https://moninstance.collec-science.mysociety.com/collectionsGenerateMail).
+- appelez la page *collectionsSendMail* (adresse dans votre navigateur : https://moninstance.collec-science.mysociety.com/collectionsSendMail).
 
 Aucune information ne sera affichée à l'écran (page blanche). Vous pourrez revenir dans les paramètres de l'application pour vérifier que le champ **notificationLastDate** a bien été mis à jour.

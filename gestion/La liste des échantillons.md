@@ -75,7 +75,7 @@ Le fichier d'export que vous pouvez créer en cliquant sur le bouton *Export ver
 - vous pourrez ouvrir ce fichier (au format CSV) avec LibreOffice (évitez Excel, qui pose plus de problèmes de compatibilité), modifier le contenu des informations, puis les réimporter à partir du menu *Imports/Exports > Import d'échantillons externes*. C'est le moyen le plus efficace pour modifier une série d'échantillons, rajouter des informations, etc.
 - vous pouvez transmettre le fichier généré à un autre organisme utilisant Collec-Science : il leur suffira d'utiliser la fonction disponible à partir du menu *Imports/Exports > Import d'échantillons externes* pour les importer directement dans leur instance.
 
-Pour plus d'informations sur la fonction d'import externe, consultez la page [[Importer des échantillons externes]].
+Pour plus d'informations sur la fonction d'import externe, consultez la page [[Importer des échantillons externes ou modifier les échantillons avec un logiciel tiers]].
 
 
 ## Les opérations globales de modification des échantillons

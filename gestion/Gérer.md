@@ -4,7 +4,5 @@
 - [[Importer des échantillons ou des contenants]]
 	- [[Générer le modèle pour les importations de masse]]
 	- [[L'import de masse]]
-- Exporter des échantillons vers une autre instance
-	- Modifier les échantillons en dehors du logiciel
-	- importer des objets provenant d'une autre instance (ou modifiés en dehors du logiciel)
+- [[Importer des échantillons externes ou modifier les échantillons avec un logiciel tiers]]
 - [[Prêter un ou plusieurs échantillons]]
