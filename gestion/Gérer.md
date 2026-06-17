@@ -6,3 +6,6 @@
 	- [[L'import de masse]]
 - [[Importer des échantillons externes ou modifier les échantillons avec un logiciel tiers]]
 - [[Prêter un ou plusieurs échantillons]]
+- Exporter des échantillons à façon
+	- [[Exporter des échantillons vers ElabFTW]]
+
