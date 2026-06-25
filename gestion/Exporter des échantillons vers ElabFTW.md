@@ -65,10 +65,10 @@ Les informations transférées sont les suivantes :
 - les autres informations sont rangées dans la rubrique *Champs supplémentaires* :
 	- *collection* comprend le nom de la collection d'origine ;
 	- *quantité* contient la quantité associée à l'échantillon, ainsi que l'unité de mesure
-	- les métadonnées sont également transférées. Elles sont préfixées avec *md_*.
+	- les métadonnées sont également transférées, elles apparaissent dans une sous-rubrique *metadata*.
 
 Voici un exemple, transmis aimablement par François Ehrenmann lors des premiers tests :
 
-![[elab-import.png]]
+![[resultat_import_elab.png]]
 
 
