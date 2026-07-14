@@ -1,6 +1,5 @@
-- Visualiser la dernière version publiée
-	- Consulter les nouveautés
-- consulter les logs
+- [[Visualiser la dernière version publiée et consulter les nouveautés]]
+- [[Consulter les logs et les fichiers des erreurs]]
 - consulter les fichiers des erreurs
 - visualiser les mouvements
 - rechercher des mouvements cycliques
