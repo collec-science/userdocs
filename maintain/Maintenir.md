@@ -1,7 +1,6 @@
 - [[Visualiser la dernière version publiée et consulter les nouveautés]]
 - [[Consulter les logs et les fichiers des erreurs]]
-- consulter les fichiers des erreurs
-- visualiser les mouvements
-- rechercher des mouvements cycliques
+- [[Visualiser les mouvements]]
+- [[Rechercher des mouvements cycliques]]
 - sauvegarder la base de données avant une grosse opération
 - consulter les informations gérées par le serveur web (variables fournies par le serveur web ou variables de la session PHP, configuration PHP)
