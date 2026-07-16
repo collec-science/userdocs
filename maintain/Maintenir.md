@@ -2,5 +2,5 @@
 - [[Consulter les logs et les fichiers des erreurs]]
 - [[Visualiser les mouvements]]
 - [[Rechercher des mouvements cycliques]]
-- sauvegarder la base de données avant une grosse opération
-- consulter les informations gérées par le serveur web (variables fournies par le serveur web ou variables de la session PHP, configuration PHP)
+- [[Sauvegarder la base de données avant une grosse opération]]
+- [[Consulter les informations fournies par le serveur web]]
