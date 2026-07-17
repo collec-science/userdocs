@@ -1,6 +1,11 @@
-- [[Visualiser la dernière version publiée et consulter les nouveautés]]
-- [[Consulter les logs et les fichiers des erreurs]]
-- [[Visualiser les mouvements]]
-- [[Rechercher des mouvements cycliques]]
-- [[Sauvegarder la base de données avant une grosse opération]]
-- [[Consulter les informations fournies par le serveur web]]
+- Mouvements :
+	-  [[Visualiser les mouvements]]
+	- [[Rechercher des mouvements cycliques]]
+- Nouvelle version : 
+	- [[Visualiser la dernière version publiée et consulter les nouveautés]]
+- Suivi des opérations ou des anomalies :
+	- [[Consulter les logs et les fichiers des erreurs]]
+	- [[Régénérer les modèles de métadonnées ou renommer un champ]]
+- Technique :
+	- [[Sauvegarder la base de données avant une grosse opération]]
+	- [[Consulter les informations fournies par le serveur web]]
