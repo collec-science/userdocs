@@ -53,6 +53,8 @@ Si vous modifiez le nom d'un champ dans la description du modèle, le renommage 
 
 Vous pouvez également renommer globalement un champ, quel que soit le modèle qui l'utilise (à partir de la version v26.0.0). Depuis la liste des modèles de métadonnées, en bas d'écran, choisissez le formulaire *Renommer un champ de métadonnées globalement*, indiquez l'ancien nom et le nouveau, puis lancez l'opération : les modèles seront mis à jour ainsi que l'ensemble des échantillons qui contiennent cette métadonnée.
 
+Pour plus d'informations, consultez cette page : [[Régénérer les modèles de métadonnées ou renommer un champ]].
+
 ## Supprimer un champ de métadonnées
 
 Si vous souhaitez supprimer un champ de métadonnées de vos échantillons, vous devrez lancer (ou faire exécuter, si vous ne gérez pas le serveur qui héberge votre instance) cette commande SQL :
@@ -63,3 +65,8 @@ set metadata::jsonb - 'ma_metadonnee' 
 from sample 
 where metadata::text like '%"ma_metadonnee":%';
 ~~~
+
+
+## Opérations de maintenance sur les modèles de métadonnées
+
+Dans certains cas, des opérations de maintenance sont nécessaires pour éviter des dysfonctionnement de l'application. Consultez cette page pour plus d'informations : [[Régénérer les modèles de métadonnées ou renommer un champ]].

@@ -1,11 +1,11 @@
 - [[Chercher les échantillons]]
 	- [[Les opérations globales sur les échantillons]]
-- La recherche de contenants
+- [[Chercher des contenants]]
 - [[Importer des échantillons ou des contenants]]
 	- [[Générer le modèle pour les importations de masse]]
 	- [[L'import de masse]]
 - [[Importer des échantillons externes ou modifier les échantillons avec un logiciel tiers]]
 - [[Prêter un ou plusieurs échantillons]]
-- Exporter des échantillons à façon
+- [[Exporter les échantillons dans un format particulier]]
 	- [[Exporter des échantillons vers ElabFTW]]
 
