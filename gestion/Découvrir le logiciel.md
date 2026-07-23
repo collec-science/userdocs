@@ -4,4 +4,5 @@
 	- [[Les échantillons]]
 	- [[Les métadonnées]]
 	- [[Les campagnes]]
+- [[Importations et exportations]]
 - [[Le lexique]]
