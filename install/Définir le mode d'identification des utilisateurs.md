@@ -220,7 +220,7 @@ Ppci\Config\Oidc.orcid.scopes = ""
 Ppci\Config\Oidc.orcid.logo = "display/images/orcid.png"
 ~~~
 
-Le logo pour ORCID est déjà fourni dans le logiciel.
+Le logo pour ORCID est déjà fourni dans le logiciel. Pour plus d'informations concernant l'identification via ORCID, consultez cette page : [[Identifier les utilisateurs en utilisant leur numéro ORCID]].
 
 Vous pouvez vérifier les *scopes* proposés par le serveur d'identification à cette adresse : https://sandbox.orcid.fr/.well-known/openid-configuration
 
