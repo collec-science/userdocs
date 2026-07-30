@@ -1,5 +1,7 @@
 - Procédure rapide
 - l'hôte virtuel Apache
 - [[Les paramètres de fonctionnement]]
+- [[Définir le mode d'identification des utilisateurs]]
+	- [[Identifier les utilisateurs en utilisant leur numéro ORCID]]
+	- [[Configurer le serveur web pour une identification auprès d'une fédération d'identités]]
 - faire cohabiter plusieurs instances dans la même machine
-- Paramétrer l'identification en mode Header avec le plugin Mellon, pour utiliser une fédération d'identités
