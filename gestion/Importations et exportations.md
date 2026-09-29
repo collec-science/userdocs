@@ -24,3 +24,4 @@ Collec-Science vous permet de créer des modèles d'exportation : [[Préparer un
 Un modèle, fourni à partir de la version v26.2.0 de Collec-Science, vous permet ainsi d'exporter des échantillons vers le logiciel ElabFTW, un logiciel de gestion de cahiers de laboratoires électroniques : [[Exporter des échantillons vers ElabFTW]].
 Ces modèles fonctionnent à partir de lots d'échantillons, que vous pourrez créer à partir de la liste des échantillons : cela vous permettra de transférer vos échantillons dans des formats différents à partir du même lot. La création des lots d'échantillons est décrit ici, [[Les opérations globales sur les échantillons]], rubrique *Créer un lot d'export*.
 
+À partir de la version v27.0.0, vous pouvez maintenant générer un fichier ODK pour saisir vos échantillons sur le terrain, puis importer leur description : [[Utiliser ODK pour importer des échantillons]].
