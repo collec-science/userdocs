@@ -36,6 +36,22 @@ Pour générer le formulaire ODK, l'utilisateur va :
 
 Une fois les formulaires saisis sur le terrain, il ne restera qu'à récupérer les informations dans un fichier zip, puis à l'importer dans Collec-Science.
 
+## La liste des projets ODK
+
+Depuis le menu, choisissez *imports/Exports > Formulaires ODK* :
+
+![[Pasted image 20261001104635.png]]
+
+À partir de cette liste, vous pouvez soit : 
+
+- créer un nouveau modèle (lien *Nouveau...*)
+- afficher le détail, en cliquant sur le nom du formulaire
+- modifier les informations générales du formulaire
+- le dupliquer.
+
+La duplication va recopier l'ensemble du formulaire, y compris les lignes générées. Elle va incrémenter le numéro de version, en rajoutant 1 au dernier chiffre saisi dans le formulaire dupliqué.
+## Pour aller plus loin
+
 [[Générer le formulaire ODK]]
 
 [[Importer les données saisies avec ODK Collect]]
